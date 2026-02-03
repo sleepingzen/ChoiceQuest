@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3" />
+        android:src="@drawable/page_2_1_3" />
 
     <View
         android:layout_width="match_parent"
@@ -29,14 +29,21 @@
 
     <TextView
         android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="Look out the window."
+        android:textColor="@color/white"
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/quest_font"
+        android:fontFamily="@font/PixelSpace_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="“Volunteers needed for the old lighthouse.” "
+        android:text="You stare outside. The world keeps moving without you.\n\nA cat sits on the fence, staring back.\n\nDark clouds gather in the distance."
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:textStyle="italic"
         android:layout_marginBottom="16dp"/>
     <View
@@ -45,9 +52,9 @@
         android:layout_weight="0.5"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="250dp"
+        android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Stay and help."
+        android:text="Watch the cat."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
@@ -55,9 +62,9 @@
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="250dp"
+        android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Leave and tell the town."
+        android:text="Watch the storm."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"

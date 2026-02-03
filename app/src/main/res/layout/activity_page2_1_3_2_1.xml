@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="5 more minutes."
+        android:text="Help reinforce homes."
         android:textColor="@color/white"/>
 
     <TextView
@@ -40,7 +40,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You close the window’s curtains and go back to sleep. You are 3 hours late from 5 minutes, and it is now afternoon. You feel your stomach grumbling."
+        android:text="You work until exhaustion. By reinforcing houses with the townspeople, you helped avoid a disaster.\n\nYou are remembered not for wealth, but for being there when it mattered.\n\n(Community Pillar Ending)"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:layout_marginBottom="16dp"/>
@@ -49,36 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
-    <Button
-        android:id="@+id/btnOption1"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Make a quick meal before heading out to buy some more."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption2"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Go out and buy something."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption3"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:text="5 more minutes."
-        android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"

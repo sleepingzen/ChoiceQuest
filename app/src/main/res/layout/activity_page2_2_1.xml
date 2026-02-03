@@ -20,17 +20,18 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src=" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+    android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="37dp"
         android:gravity="center"
-        android:text="5 more minutes."
+        android:text=" Make a quick meal before heading out to buy some more.
+You move slowly, but you move."
         android:textColor="@color/white"/>
 
     <TextView
@@ -40,44 +41,32 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You close the window’s curtains and go back to sleep. You are 3 hours late from 5 minutes, and it is now afternoon. You feel your stomach grumbling."
+        android:text="The kitchen feels unfamiliar, like it’s been waiting longer than you realized. You throw together something simple—whatever’s left within reach. It’s not good, but it’s warm, and it’s enough to quiet your stomach for now.\n\nAs you eat, the haze in your head thins just a little. Not clarity—just steadiness. You rinse the bowl and lean against the counter for a moment, listening to your own breathing. The world outside hasn’t gone anywhere. It’s still there, waiting.\n\nYou grab what little money you have and head for the door."
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="17sp"
         android:layout_marginBottom="16dp"/>
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
     <Button
-        android:id="@+id/btnOption1"
+        android:id="@+id/btnStayHelp"
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Make a quick meal before heading out to buy some more."
+        android:text="Go straight to the nearest shop."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/btnOption2"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Go out and buy something."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption3"
+        android:id="@+id/btnLeaveTell"
         android:layout_width="412dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
-        android:text="5 more minutes."
+        android:text="Stay inside and wait it out."
         android:textSize="12sp" />
 
     <View

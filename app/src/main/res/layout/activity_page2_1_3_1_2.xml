@@ -30,55 +30,25 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="5 more minutes."
+        android:text="Chase it out."
         android:textColor="@color/white"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#80000000"
         android:fontFamily="@font/PixelSpace_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
-        android:text="You close the window’s curtains and go back to sleep. You are 3 hours late from 5 minutes, and it is now afternoon. You feel your stomach grumbling."
+        android:text="The cat hisses at you before jumping on your face, scratching you continuously, stopping only when you throw it off.\n\nYour face heals, but the scars left by that interaction leaves you dismembered—leaving nothing but a slight resemblance of what you used to look like.\n\nPeople avoid you as though they are walking amongst a monster.\n\n(Regretful Scars Ending)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="24sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
-    <Button
-        android:id="@+id/btnOption1"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Make a quick meal before heading out to buy some more."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption2"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Go out and buy something."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption3"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:text="5 more minutes."
-        android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"

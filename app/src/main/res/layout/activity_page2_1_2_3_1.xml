@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1" />
 
     <View
         android:layout_width="match_parent"
@@ -30,8 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="5 more minutes."
-        android:textColor="@color/white"/>
+        android:text="(Investigate the lighthouse.)"
+        android:textColor="@color/white" />
 
     <TextView
         android:layout_width="match_parent"
@@ -40,45 +40,35 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You close the window’s curtains and go back to sleep. You are 3 hours late from 5 minutes, and it is now afternoon. You feel your stomach grumbling."
+        android:text="You go at night. The light flickers strangely.
+Inside, you find an old keeper who never left, tending the light endlessly.
+"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:layout_marginBottom="16dp"/>
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
     <Button
-        android:id="@+id/btnOption1"
+        android:id="@+id/btnStayHelp"
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Make a quick meal before heading out to buy some more."
+        android:text="Stay and help."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/btnOption2"
+        android:id="@+id/btnLeaveTell"
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Go out and buy something."
+        android:text="Leave and tell the town."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption3"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:text="5 more minutes."
-        android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"
