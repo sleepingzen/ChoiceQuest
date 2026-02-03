@@ -18,12 +18,19 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
         android:gravity="center"
         android:id="@+id/et_characternaming"
         android:hint="Enter character name"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:onClick=""
 
 
 

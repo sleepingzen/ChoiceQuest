@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/storybackground"
-    android:gravity="top"
     android:orientation="vertical"
+    android:id="@+id/page1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clickable="true"
-    android:focusable="true"
-    tools:context=".StoryBackground">
+    tools:context=".Page1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_storybackground"
+        android:id="@+id/tv_page1"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
-        android:text="There are days that feel important.
-\nYou can usually tell when they begin.
-\n\nThis isn’t one of those days.
-
-\n\nNothing is wrong—at least, nothing loud enough to demand your attention. The world moves on at its usual pace, and you move with it, half-aware, half-drifting.
-
-\n\nYou’ve been meaning to get up earlier.
-\nYou’ve been meaning to do a lot of things.
-
-\n\nFor now, you sleep.
-
-\n\nLight creeps in through the window, warmer and brighter than you expect, pressing against your closed eyes."/>
+        android:text="You are woken up by the sunlight blasting at your face through the window.
+        \n\nYour face feels hot, and you turn over on your bed to avoid the sunlight."/>
 
     <Button
         android:layout_width="300dp"
@@ -40,8 +28,19 @@
         android:gravity="center"
         android:textSize="18dp"
         android:layout_marginLeft="55dp"
-        android:layout_marginTop="140dp"
-    android:text="Press Anywhere to Continue"
-    android:onClick="storybackground"/>
+        android:layout_marginTop="350dp"
+        android:text="Wake up and make breakfast."
+        android:onClick="page2_1"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="5 more minutes."
+        android:onClick="page2_2"/>
 
 </LinearLayout>

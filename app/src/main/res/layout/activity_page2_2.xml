@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page2_2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_2"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="(5 more minutes.)
+\n\nYou close the window’s curtains and go back to sleep. \nYou are 3 hours late from 5 minutes, and it is now afternoon. 
+\n\nYou feel your stomach grumbling."/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="250dp"
+        android:text="Make a quick meal before heading out to buy some more." />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Go out and buy something." />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="5 more minutes." />
+        
+
+</LinearLayout>

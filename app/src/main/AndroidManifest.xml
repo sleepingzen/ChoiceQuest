@@ -12,7 +12,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoiceQuest">
         <activity
+            android:name=".Page2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CharacterNaming"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoryBackground"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
