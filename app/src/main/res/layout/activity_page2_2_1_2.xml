@@ -9,7 +9,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:ignore="ExtraText">
 
     <View
         android:layout_width="match_parent"
@@ -20,17 +21,18 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src=" "/>
+        android:src=" />
 
     <View
-        android:layout_width="match_parent"
+        android:layout_width="
+        android:match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:gravity="center"
-        android:text="Go straight to the nearest shop."
+        android:text="Step outside and take a moment before leaving."
         android:textColor="@color/white"/>
 
     <TextView
@@ -40,9 +42,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You step out quickly, the air sharp against your face. The streets feel longer than usual.
-The shop is small but busy. Shelves are half-empty; someone’s already grabbing what you came for.\n\nYou navigate through the crowd, keeping your pace steady. Finally, you pick up what you need.
-The shopkeeper gives you a nod. No words—just acknowledgement that someone got by today."
+        android:text="You pause just outside your door. The sun is high, and the town hums softly around you.\n\nYou notice small details: a child chasing a stray dog, smoke curling from a baker’s chimney, the way the wind brushes through the trees.\n\nFor a moment, you breathe it all in. Just being here feels… alive."
         android:textColor="@color/white"
         android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
@@ -50,15 +50,6 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-    <Button
-        android:id="@+id/btnStayHelp"
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:text="Buy everything you need and head home immediately."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
@@ -67,7 +58,7 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
-        android:text="Decide to explore the market a little more while you’re here."
+        android:text="Walk slowly through town, observing everything before buying anything."
         android:textSize="12sp" />
 
     <View

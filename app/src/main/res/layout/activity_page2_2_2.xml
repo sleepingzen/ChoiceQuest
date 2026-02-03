@@ -20,17 +20,17 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src=" "/>
+        android:src="" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1" />
+        android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="25dp"
         android:gravity="center"
-        android:text="Go straight to the nearest shop."
+        android:text="Go out and buy something."
         android:textColor="@color/white"/>
 
     <TextView
@@ -40,34 +40,44 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You step out quickly, the air sharp against your face. The streets feel longer than usual.
-The shop is small but busy. Shelves are half-empty; someone’s already grabbing what you came for.\n\nYou navigate through the crowd, keeping your pace steady. Finally, you pick up what you need.
-The shopkeeper gives you a nod. No words—just acknowledgement that someone got by today."
+        android:text="You step outside, weak and dizzy.\n\nA bakery smells inviting.\n\nA street performer distracts you.\n\nYou collapse."
         android:textColor="@color/white"
-        android:textSize="19sp"
+        android:textSize="25sp"
         android:layout_marginBottom="16dp"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
     <Button
-        android:id="@+id/btnStayHelp"
+        android:id="@+id/btnOption1"
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="Buy everything you need and head home immediately."
+        android:text="Buy food."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/btnLeaveTell"
+        android:id="@+id/btnOption2"
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:text="Stop and watch."
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOption3"
         android:layout_width="412dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
-        android:text="Decide to explore the market a little more while you’re here."
+        android:text="Let yourself fall."
         android:textSize="12sp" />
 
     <View
