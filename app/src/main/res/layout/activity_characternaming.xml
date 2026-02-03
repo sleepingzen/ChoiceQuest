@@ -29,9 +29,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:text="Submit"
-        android:onClick=""
-
+        android:text="Submit"/>
 
 
 </LinearLayout>
