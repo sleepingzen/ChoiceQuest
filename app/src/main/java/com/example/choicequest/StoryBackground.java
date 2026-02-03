@@ -15,10 +15,13 @@ import androidx.core.view.WindowInsetsCompat;
 public class StoryBackground extends AppCompatActivity {
 
     private TextView myTextView;
-    private String fullText = "This text is being typed.";
+    private String fullText;
+
     private int index = 0;
-    private long delay = 100;
+    private long delay = 40;
+
     private Handler h = new Handler();
+    private boolean isTyping = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +29,10 @@ public class StoryBackground extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_storybackground);
 
+        View root = findViewById(R.id.storybackground);
+
         ViewCompat.setOnApplyWindowInsetsListener(
-                findViewById(R.id.storybackground),
+                root,
                 (v, insets) -> {
                     Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
                     v.setPadding(
@@ -41,23 +46,38 @@ public class StoryBackground extends AppCompatActivity {
         );
 
         myTextView = findViewById(R.id.tv_storybackground);
+
+        fullText = myTextView.getText().toString();
         myTextView.setText("");
+
         typeText();
+
+        root.setOnClickListener(v -> {
+            if (isTyping) {
+                isTyping = false;
+                h.removeCallbacksAndMessages(null);
+                myTextView.setText(fullText);
+            }
+        });
     }
 
     private void typeText() {
+        index = 0;
+        isTyping = true;
+
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
-                if (index <= fullText.length()) {
-                    myTextView.setText(fullText.substring(0, index++));
+                if (index < fullText.length() && isTyping) {
+                    myTextView.setText(fullText.substring(0, index + 1));
+                    index++;
                     h.postDelayed(this, delay);
                 }
             }
         }, delay);
     }
-    public void storybackground(View view) {
-        Intent i = new Intent(StoryBackground.this, Page1.class);
-        startActivity(i);
+
+    public void page1(View view) {
+        startActivity(new Intent(this, Page1.class));
     }
 }

@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void mainActivity(View view) {
-        Intent i = new Intent(MainActivity.this, StoryBackground.class);
+        Intent i = new Intent(MainActivity.this, CharacterNaming.class);
         startActivity(i);
     }
 }

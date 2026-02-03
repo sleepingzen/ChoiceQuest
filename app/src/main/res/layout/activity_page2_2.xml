@@ -51,6 +51,5 @@
         android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
         android:text="5 more minutes." />
-        
 
 </LinearLayout>

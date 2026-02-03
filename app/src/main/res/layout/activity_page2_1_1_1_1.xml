@@ -2,36 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1"
+    android:id="@+id/page2_1_1_1_1"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Page2_1">
+    tools:context=".Page2_1_1_1_1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_page2_1"
+        android:id="@+id/tv_page2_1_1_1_1"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
-        android:text="(Wake up and make breakfast.)
-        \n\nYou get up, wash your face to cool off, and make breakfast to eat.
-        \n\nAn hour passes, you are now full."/>
+        android:text="“Ah! How could I forget? Of course, of course. Here, take these maggots. Surely we can catch something good with this.” Ralph says, his face showing a hopeful demeanor."/>
 
     <Button
-    android:layout_width="300dp"
-    android:layout_height="60dp"
-    android:layout_gravity="bottom"
-    android:gravity="center"
-    android:textSize="18dp"
-    android:layout_marginLeft="55dp"
-    android:layout_marginTop="300dp"
-    android:text="Go to the pond."
-    android:onClick="page2_1_1"/>
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="235dp"
+        android:text="Your fishing rod shakes… Something has caught on!"
+        android:onClick="page2_1_1_1_1_1"/>
 
     <Button
         android:layout_width="300dp"
@@ -41,16 +40,6 @@
         android:textSize="18dp"
         android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
-        android:text="Go to the market." />
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="bottom"
-        android:gravity="center"
-        android:textSize="18dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="20dp"
-        android:text="Look out the window." />
-
+        android:text="Nothing happens."
+        android:onClick="page2_1_1_1_1_2"/>
 </LinearLayout>

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
 public class CharacterNaming extends AppCompatActivity {
 
     EditText et_characternaming;
@@ -29,13 +30,16 @@ public class CharacterNaming extends AppCompatActivity {
         });
         et_characternaming = findViewById(R.id.et_characternaming);
     }
-    public void characterNaming(View view) {
+    public void storybackground(View view) {
 
         str_characternaming = et_characternaming.getText().toString();
 
         if (str_characternaming.isEmpty()) {
             Toast.makeText(this, "Please name your character.", Toast.LENGTH_SHORT).show();
+            return;
         }
+
+        CharacterNameSaver.characterName = str_characternaming;
 
         Intent i = new Intent(CharacterNaming.this, StoryBackground.class);
         i.putExtra("str_characternaming",str_characternaming);

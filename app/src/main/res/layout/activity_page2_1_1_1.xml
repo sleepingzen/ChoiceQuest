@@ -2,30 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/characternaming"
-    android:gravity="center"
+    android:id="@+id/page2_1_1_1"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CharacterNaming">
+    tools:context=".Page2_1_1_1">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="Please Enter Your Name Below"/>
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:gravity="center"
-        android:id="@+id/et_characternaming"
-        android:hint="Enter character name"
+        android:id="@+id/tv_page2_1_1_1"
+        android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"/>
-    
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="(Go fishing with the fisherman.)
+\n\nYou step on the boat, and sail with the fisherman.
+\n\n“What’s your name, kid?” The fisherman asks, which you reply to with
+\n\nThe name’s Ralph, pleasure to meet you on this fine day. Here’s your  rod *name*.
+\n\nIf you catch a fish for me, I’ll reward you with coins.”  Says Ralph."/>
+
     <Button
         android:layout_width="300dp"
         android:layout_height="60dp"
@@ -33,7 +31,7 @@
         android:gravity="center"
         android:textSize="18dp"
         android:layout_marginLeft="55dp"
-        android:text="Submit"
-        android:onClick="storybackground"/>
-
+        android:layout_marginTop="235dp"
+        android:text="Got any bait?"
+        android:onClick="page2_1_1_1_1"/>
 </LinearLayout>

@@ -42,6 +42,6 @@
         android:layout_marginLeft="55dp"
         android:layout_marginTop="140dp"
     android:text="Press Anywhere to Continue"
-    android:onClick="storybackground"/>
+    android:onClick="page1"/>
 
 </LinearLayout>

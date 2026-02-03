@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page2_1_1_1_1_1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2_1_1_1_1_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_1_1_1_1_1"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="You pull and tug the fishing rod, whatever has caught on feels heavy enough that you start to sweat.
+        \nRalph helps you pull it out of the water, and surprisingly, it is a chest filled with treasure!
+        \nRalph jumps happily, almost turning the boat over, hugging you in the midst of it, and shouts “We’re rich!”
+"/>
+
+</LinearLayout>
