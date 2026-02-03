@@ -34,42 +34,30 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text=" test chat "
+        android:text="“Volunteers needed for the old lighthouse.” "
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="italic"
         android:layout_marginBottom="16dp"/>
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
     <Button
-        android:id="@+id/btnOption1"
+        android:id="@+id/btnStayHelp"
         android:layout_width="250dp"
         android:layout_height="45dp"
-        android:text="test test test"
+        android:text="Stay and help."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/btnOption2"
+        android:id="@+id/btnLeaveTell"
         android:layout_width="250dp"
         android:layout_height="45dp"
-        android:text="test test"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnOption3"
-        android:layout_width="250dp"
-        android:layout_height="45dp"
-        android:text="test test"
+        android:text="Leave and tell the town."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
