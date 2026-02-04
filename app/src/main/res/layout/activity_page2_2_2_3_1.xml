@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/PixelSpace_font"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="You wake up in a clinic.\n\nSomeone cared enough to stop.\n\nYou decide to try again.\n\n(Second Chance Ending)"

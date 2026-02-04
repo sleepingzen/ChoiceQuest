@@ -2,10 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/storybackground"
-    android:gravity="top"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/papertexture_"
+    android:backgroundTint="#f8e7c2"
+    android:backgroundTintMode="multiply"
+    android:padding="16dp"
     android:clickable="true"
     android:focusable="true"
     tools:context=".StoryBackground">
@@ -13,13 +17,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_storybackground"
+        android:fontFamily="@font/pixelgame_font"
+        android:textColor="#000000"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
+        android:id="@+id/tv_storybackground"
         android:text="There are days that feel important.
 \nYou can usually tell when they begin.
 \n\nThis isn’t one of those days.
@@ -34,12 +40,12 @@
 \n\nLight creeps in through the window, warmer and brighter than you expect, pressing against your closed eyes."/>
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quest_font"
         android:gravity="center"
-        android:textSize="18dp"
-        android:layout_marginLeft="55dp"
+        android:padding="16dp"
+        android:background="#800000000"
         android:layout_marginTop="140dp"
     android:text="Press Anywhere to Continue"
     android:onClick="page1"/>

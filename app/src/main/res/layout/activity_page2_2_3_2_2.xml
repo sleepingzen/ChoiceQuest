@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="Lie back down"
+        android:text="(Lie back down.)"
         android:textColor="@color/white"/>
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/PixelSpace_font"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="You let the tension go.\n\nThe room feels softer now, edges blurring again.\n\nWhatever you were reaching for slips away.\n\n(Overextended 5 More Minutes Ending: Surrender)"

@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/PixelSpace_font"
+        android:fontFamily="@font/pixelspace_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="You settle into routine.\n\nNothing changes fast—but it changes.\n\nYou feel as though you’re finally doing something for a change.\n\n(Baby Steps Ending)

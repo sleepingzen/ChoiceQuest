@@ -3,16 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/characternaming"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/papertexture_"
+    android:backgroundTint="#f8e7c2"
+    android:backgroundTintMode="multiply"
+    android:padding="16dp"
     tools:context=".CharacterNaming">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/pixelgame_font"
+        android:textColor="#000000"
         android:text="Please Enter Your Name Below"/>
 
     <EditText
@@ -20,7 +26,8 @@
         android:layout_height="60dp"
         android:gravity="center"
         android:id="@+id/et_characternaming"
-        android:hint="Enter character name"
+        android:hint="Enter character name here"
+        android:fontFamily="@font/pixelgame_font"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -31,6 +38,9 @@
         android:layout_height="60dp"
         android:layout_gravity="bottom"
         android:gravity="center"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:textColor="#000000"
         android:textSize="18dp"
         android:layout_marginLeft="55dp"
         android:text="Submit"

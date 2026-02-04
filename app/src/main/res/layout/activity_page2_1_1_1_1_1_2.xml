@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page2_1_1_1_1_1_2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2_1_1_1_1_1_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_1_1_1_1_1_2"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="You shove Ralph into the water. He disappears beneath the surface, shouting. You row back alone, heart pounding."/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="235dp"
+        android:text="Hide the treasure."
+        android:onClick="page2_1_1_1_1_1_2_1" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Sell the treasure immediately."
+        android:onClick="page2_1_1_1_1_1_2_2" />
+</LinearLayout>

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_1"
+    android:id="@+id/page2_1_1_1_1_1_1_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -11,7 +11,7 @@
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:padding="16dp"
-    tools:context=".Page2_1_1">
+    tools:context=".Page2_1_1_1_1_1_1_2">
 
     <View
         android:layout_width="match_parent"
@@ -28,8 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
-        android:id="@+id/tv_page2_1_1"
+        android:id="@+id/tv_page2_1_1_1_1_1_1_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:justificationMode="inter_word"
@@ -40,10 +41,11 @@
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
-        android:text="(Go to the pond.)
-\n\nYou go outside and walk to the pond.
-\n\nA fisherman spots you.
-\n\n“Hey, kid! You wanna go fishing with me?” The fisherman shouts."/>
+        android:text="(Decline Ralph’s request, but become a merchant yourself.)
+        \n\nThe two of you part ways, remaining as friends.
+        \n\nYou sign up alone as a merchant, stocking up what is mostly needed in your town. You become a reputable merchant in your town, being someone that provides the people what they need at a reasonable price.
+        \nYou hear news of your friend, Ralph’s downfall as a merchant, which led to him returning to the fisherman lifestyle.
+        \n\nYou feel saddened by the news, but think that it is not your responsibility."/>
 
 
     <Button
@@ -53,7 +55,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#8000000"
-        android:text="Go fishing with the fisherman."
-        android:onClick="page2_1_1_1"/>
+        android:text="Go Back to Title Page"
+        android:onClick="title3" />
 
 </LinearLayout>

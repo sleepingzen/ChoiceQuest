@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/PixelSpace_font"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="You wander again. Hunger returns, just like before.\n\nYou walk through the town, witnessing many different events.\n\nYou realize that the world doesn’t revolve around you. It continues to spin even if you don’t do anything.\n\n(Endless Loop Ending)"

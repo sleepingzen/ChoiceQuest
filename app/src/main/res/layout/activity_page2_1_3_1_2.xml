@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/PixelSpace_font"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="The cat hisses at you before jumping on your face, scratching you continuously, stopping only when you throw it off.\n\nYour face heals, but the scars left by that interaction leaves you dismembered—leaving nothing but a slight resemblance of what you used to look like.\n\nPeople avoid you as though they are walking amongst a monster.\n\n(Regretful Scars Ending)"

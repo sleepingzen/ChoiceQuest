@@ -3,24 +3,67 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/page2_1_1_1_1_1"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Page2_1_1_1_1_1">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/papertexture_"
+    android:backgroundTint="#f8e7c2"
+    android:backgroundTintMode="multiply"
+    android:padding="16dp"
+    tools:context=".Page2_1_1_1_1">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:src="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/tv_page2_1_1_1_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:justificationMode="inter_word"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/pixelgame_font"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
-        android:text="You pull and tug the fishing rod, whatever has caught on feels heavy enough that you start to sweat.
+        android:text="(*Your fishing rod shakes… Something has caught on!*)
+        \n\nYou pull and tug the fishing rod, whatever has caught on feels heavy enough that you start to sweat.
         \nRalph helps you pull it out of the water, and surprisingly, it is a chest filled with treasure!
-        \nRalph jumps happily, almost turning the boat over, hugging you in the midst of it, and shouts “We’re rich!”
-"/>
+        \nRalph jumps happily, almost turning the boat over, hugging you in the midst of it, and shouts “We’re rich!”"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quest_font"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#8000000"
+        android:text="Split the treasure with Ralph."
+        android:onClick="page2_1_1_1_1_1_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quest_font"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#8000000"
+        android:text="Push Ralph off the boat and take the treasure for yourself."
+        android:onClick="page2_1_1_1_1_1_2"/>
 
 </LinearLayout>

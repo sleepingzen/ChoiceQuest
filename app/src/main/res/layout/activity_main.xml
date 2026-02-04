@@ -3,23 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/papertexture_"
+    android:backgroundTint="#f8e7c2"
+    android:backgroundTintMode="multiply"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
+        android:fontFamily="@font/pixelgame_font"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="50dp"
+        android:textColor="#000000"
         android:text="= Choice Quest ="/>
 
     <Button
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:textSize="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textSize="12dp"
+        android:fontFamily="@font/quest_font"
         android:text="- Press to Start -"
         android:onClick="mainActivity"/>
 

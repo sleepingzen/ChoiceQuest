@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_1"
+    android:id="@+id/page2_1_1_1_1_1_1_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -11,7 +11,7 @@
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:padding="16dp"
-    tools:context=".Page2_1_1">
+    tools:context=".Page2_1_1_1_1_1_1_1">
 
     <View
         android:layout_width="match_parent"
@@ -28,8 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
-        android:id="@+id/tv_page2_1_1"
+        android:id="@+id/tv_page2_1_1_1_1_1_1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:justificationMode="inter_word"
@@ -40,10 +41,10 @@
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
-        android:text="(Go to the pond.)
-\n\nYou go outside and walk to the pond.
-\n\nA fisherman spots you.
-\n\n“Hey, kid! You wanna go fishing with me?” The fisherman shouts."/>
+        android:text="(Accept Ralph’s suggestion.)
+        \n\nWith the help of Ralph, you sign up as joint merchants, dealing a huge blow to the market with the funds you have from the treasure that you sold.
+        \n\nPrices of items in the market rise and drop, the two of you being the mastermind of it all.
+        \n\nYou successfully overthrow the other merchant groups, ultimately monopolizing the market as Ralph planned."/>
 
 
     <Button
@@ -53,7 +54,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#8000000"
-        android:text="Go fishing with the fisherman."
-        android:onClick="page2_1_1_1"/>
+        android:text="Go Back to Title Page"
+        android:onClick="title2" />
 
 </LinearLayout>
