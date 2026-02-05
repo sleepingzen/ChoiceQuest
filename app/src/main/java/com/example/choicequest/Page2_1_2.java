@@ -1,6 +1,8 @@
 package com.example.choicequest;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +17,28 @@ public class Page2_1_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page2_1_2);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.page2_1_2), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void page2_1_2_1(View view){
+        Intent i = new Intent(Page2_1_2.this, Page2_1_2_1.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void page2_1_2_2(View view){
+        Intent i = new Intent(Page2_1_2.this, Page2_1_2_2.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void page2_1_2_3(View view){
+        Intent i = new Intent(Page2_1_2.this, Page2_1_2_3.class);
+        startActivity(i);
+        finish();
     }
 }

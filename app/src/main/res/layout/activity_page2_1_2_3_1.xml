@@ -36,10 +36,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
+        android:background="@android:color/transparent"
         android:text="You go at night. The light flickers strangely.
 Inside, you find an old keeper who never left, tending the light endlessly.
 "

@@ -15,18 +15,17 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.1"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src=" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
-        android:layout_width="
-        android:match_parent"
-        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
@@ -43,7 +42,7 @@
         android:padding="16dp"
         android:background="#80000000"
         android:text="You pause just outside your door. The sun is high, and the town hums softly around you.\n\nYou notice small details: a child chasing a stray dog, smoke curling from a baker’s chimney, the way the wind brushes through the trees.\n\nFor a moment, you breathe it all in. Just being here feels… alive."
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
         android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
     <View
@@ -61,9 +60,5 @@
         android:text="Walk slowly through town, observing everything before buying anything."
         android:textSize="12sp" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="1"/>
 
 </LinearLayout>

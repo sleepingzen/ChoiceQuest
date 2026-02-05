@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="(Got any bait I can use?)
         \n\n“Ah! How could I forget? Of course, of course. Here, take these maggots. Surely we can catch something good with this.” Ralph says, his face showing a hopeful demeanor."/>
 
@@ -51,7 +51,7 @@
         android:gravity="center"
         android:textStyle="italic"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Your fishing rod shakes… Something has caught on!"
         android:onClick="page2_1_1_1_1_1"/>
 
@@ -61,7 +61,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Nothing happens."
         android:onClick="page2_1_1_1_1_2"/>
 

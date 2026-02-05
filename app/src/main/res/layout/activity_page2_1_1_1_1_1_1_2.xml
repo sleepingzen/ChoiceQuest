@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="(Decline Ralph’s request, but become a merchant yourself.)
         \n\nThe two of you part ways, remaining as friends.
         \n\nYou sign up alone as a merchant, stocking up what is mostly needed in your town. You become a reputable merchant in your town, being someone that provides the people what they need at a reasonable price.
@@ -54,7 +54,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Go Back to Title Page"
         android:onClick="title3" />
 

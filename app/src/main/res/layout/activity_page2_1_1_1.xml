@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="(Go fishing with the fisherman.)
 \n\nYou step on the boat, and sail with the fisherman.
 \n\n“What’s your name, kid?” The fisherman asks, which you reply to with
@@ -53,7 +53,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Got any bait?"
         android:onClick="page2_1_1_1_1"/>
 

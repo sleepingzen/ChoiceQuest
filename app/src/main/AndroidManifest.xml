@@ -12,6 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoiceQuest">
         <activity
+            android:name=".Page2_1_2_1_1_1_2"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_2_1_1_1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_2_1_1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_2_1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_1_1_1_1_2_1_1_2"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_1_1_1_1_2_1_1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_1_1_1_1_2_1_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Page2_1_3"
+            android:exported="false" />
+        <activity
             android:name=".Page2_1_2"
             android:exported="false" />
         <activity
@@ -61,7 +91,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -70,10 +100,10 @@
         </activity>
         <activity
             android:name=".CharacterNaming"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".StoryBackground"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -39,7 +39,7 @@
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
+        android:background="@android:color/transparent"
         android:text="Days turn into weeks. You learn the rhythm of the light.\n\nThe old keeper gives you a tap on the shoulder. You felt as though a big responsibility was passed onto you.\n\nDays turn into weeks. You learn the rhythm of the light.
 
 The old keeper gives you a tap on the shoulder. You felt as though a big responsibility was passed onto you.

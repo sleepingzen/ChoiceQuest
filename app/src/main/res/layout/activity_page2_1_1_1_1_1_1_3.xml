@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="(Decline Ralph’s request and spend all your earnings on booze and parties.)
         \n\nThe two of you part ways, remaining as friends. You head back to town, rushing into the town’s pub. As you enter, you shout, “Drinks are on me! Drink to your heart’s content everyone!” The people in the pub shout and chant your name.
         \n\nA few days pass, and you wake up, your head  throbbing as the pub’s owner shouts at you, saying you have no more money to buy more.
@@ -53,7 +53,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Go Back to Title Page"
         android:onClick="title4" />
 

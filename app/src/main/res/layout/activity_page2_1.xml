@@ -23,7 +23,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="(Wake up and make breakfast.)
         \n\nYou get up, wash your face to cool off, and make breakfast to eat.
         \n\nAn hour passes, you are now full."/>
@@ -51,7 +51,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Go to the pond."
         android:onClick="page2_1_1"/>
 
@@ -61,7 +61,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Go to the market."
         android:onClick="page2_1_2"/>
 
@@ -71,7 +71,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#8000000"
+        android:background="@android:color/transparent"
         android:text="Look out the window."
         android:onClick="page2_1_3"/>
 

@@ -18,13 +18,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pixelgame_font"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:id="@+id/tv_storybackground"
         android:text="There are days that feel important.
 \nYou can usually tell when they begin.
@@ -45,7 +45,7 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#800000000"
+        android:background="@android:color/transparent"
         android:layout_marginTop="140dp"
     android:text="Press Anywhere to Continue"
     android:onClick="page1"/>

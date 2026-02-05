@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="" />
+        android:src="@drawable/page2_1_2_3_1_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -37,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="#80000000"
-        android:fontFamily="@font/pixelspace_font"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="You settle into routine.\n\nNothing changes fast—but it changes.\n\nYou feel as though you’re finally doing something for a change.\n\n(Baby Steps Ending)
