@@ -58,21 +58,21 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.3"/>
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
-        android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
         android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:onClick="page2_1_2_1_1_1"
         android:text="Walk straight past the guards."
-        android:onClick="page2_1_2_1_1_1" />
+        android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.3"/>
 
 </LinearLayout>

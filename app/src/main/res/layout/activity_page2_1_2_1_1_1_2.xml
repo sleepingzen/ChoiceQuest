@@ -52,17 +52,17 @@
 \n\nThe trader disappears. You take the blame for something you barely understood.
 "
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="italic"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.3"/>
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"
@@ -74,6 +74,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.3"/>
 
 </LinearLayout>

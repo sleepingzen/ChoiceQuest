@@ -53,7 +53,7 @@
         android:layout_weight="0.5"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Watch the cat."
         android:background="@android:color/transparent"
@@ -63,7 +63,7 @@
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Watch the storm."
         android:background="@android:color/transparent"

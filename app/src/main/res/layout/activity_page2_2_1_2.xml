@@ -48,11 +48,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.5"/>
+        android:layout_weight="0.3"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
@@ -60,5 +60,8 @@
         android:text="Walk slowly through town, observing everything before buying anything."
         android:textSize="12sp" />
 
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 </LinearLayout>

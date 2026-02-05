@@ -52,7 +52,7 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
         android:layout_weight="0.5"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Buy everything you need and head home immediately."
         android:background="@android:color/transparent"
@@ -62,7 +62,7 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"

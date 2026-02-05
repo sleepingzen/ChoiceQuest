@@ -61,7 +61,7 @@
         android:layout_weight="0.1"/>
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"

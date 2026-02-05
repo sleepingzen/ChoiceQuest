@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="@font/pixelgame_font"
-        android:padding="5dp"
+        android:padding="2dp"
         android:text="(Go to the market.)"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -47,10 +47,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You head into town, the market already buzzing with voices and clinking coins. Merchants shout deals, children run between stalls, and the smell of cooked food makes your stomach twist again.
-\n\nA hooded trader waves you over
-\n\nA familiar classmate notices you from a distance.
-\n\nA notice board catches your eye."
+        android:text="You head into town, the market already buzzing with voices and clinking coins. Merchants shout deals, children run between stalls, and the smell of cooked food makes your stomach twist again.\n\nA hooded trader waves you over\n\nA familiar classmate notices you from a distance.\n\nA notice board catches your eye."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="italic"
@@ -62,7 +59,7 @@
         android:layout_weight="0.1"/>
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"
@@ -72,7 +69,7 @@
         android:onClick="page2_1_2_1" />
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"
@@ -82,7 +79,7 @@
         android:onClick="page2_1_2_2" />
 
     <Button
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"

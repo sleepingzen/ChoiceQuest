@@ -52,7 +52,7 @@
 
     <Button
         android:id="@+id/btnOption1"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Buy food."
         android:background="@android:color/transparent"
@@ -62,7 +62,7 @@
 
     <Button
         android:id="@+id/btnOption2"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Stop and watch."
         android:background="@android:color/transparent"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/btnOption3"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"

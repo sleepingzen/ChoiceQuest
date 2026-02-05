@@ -52,7 +52,7 @@ Inside, you find an old keeper who never left, tending the light endlessly.
         android:layout_weight="0.5"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Stay and help."
         android:background="@android:color/transparent"
@@ -62,7 +62,7 @@ Inside, you find an old keeper who never left, tending the light endlessly.
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Leave and tell the town."
         android:background="@android:color/transparent"
