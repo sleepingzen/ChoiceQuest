@@ -1,6 +1,8 @@
 package com.example.choicequest;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class Page2_1_2_1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void page2_1_2_1_1(View view){
+        Intent i = new Intent(Page2_1_2_1.this, Page2_1_2_1_1.class);
+        startActivity(i);
+        finish();
     }
 }

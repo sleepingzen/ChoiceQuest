@@ -2,87 +2,76 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_2_2"
+    android:id="@+id/page2_1_2_2_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
+    android:gravity="center"
+    android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Page2_1_2_2">
+    tools:context=".Page2_1_2_2_2">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3_1_1"/>
+        android:src="@drawable/page2_1_2_3_1_1" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelspace_font"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
         android:padding="5dp"
-        android:text="(Talk to your classmate.)"
+        android:text="(Brush them off and leave.)"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#80000000"
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
-        android:text="You see Sam, a former classmate.
-\n\nThey look surprised to see you. “You’ve been skipping a lot lately, huh?”
-\n\nThey invite you to help them study for an upcoming exam that could decide both of your futures."
+        android:text="Your classmate watches you go, disappointed.
+\nWeeks later, you hear they passed the exam alone.
+\n\nYou did not try again.
+\n\nNothing dramatic happens—just the quiet realization that you let something important slip away."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        android:layout_marginBottom="16dp"/>
-
+        android:textSize="20sp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1" />
 
     <Button
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:text="Agree to help."
-        android:onClick="page2_1_2_2_1" />
-
-    <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
-        android:text="Brush them off and leave."
-        android:onClick="page2_1_2_2_2" />
+        android:fontFamily="@font/quest_font"
+        android:onClick="title11"
+        android:text="Go Back to Title Page"
+        android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
 </LinearLayout>

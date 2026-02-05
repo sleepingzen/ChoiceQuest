@@ -5,17 +5,18 @@
     android:id="@+id/page2_1_3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_1_3">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.1"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -31,41 +32,57 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/pixelspace_font"
+        android:padding="5dp"
+        android:text="(Look out the window.)"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="“Volunteers needed for the old lighthouse.” "
+        android:text="You stare outside. The world keeps moving without you.
+\nA cat sits on the fence, staring back.
+\nDark clouds gather in the distance.
+\nYou see the fisherman’s boat far away."
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:layout_marginBottom="16dp"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.5"/>
-    <Button
-        android:id="@+id/btnStayHelp"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Investigate the lighthouse."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnLeaveTell"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Ignore it."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+        android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_weight="0.1"/>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Watch the cat."
+        android:onClick="page2_1_3_1" />
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Watch the storm."
+        android:onClick="page2_1_3_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"/>
 
 </LinearLayout>
