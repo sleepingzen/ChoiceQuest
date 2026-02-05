@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_1_3_1_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
@@ -26,12 +27,17 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Feed the cat."
-        android:textColor="@color/white"/>
+        android:fontFamily="@font/pixelspace_font"
+        android:padding="5dp"
+        android:text="(Feed the cat.)"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -40,10 +46,20 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="The cat stays. Days pass. Then weeks.\n\nYou start leaving the house again—to buy food for both of you.\n\n(A Trust Built by Food Ending)"
+        android:text="The cat stays. Days pass. Then weeks.\n\nYou start leaving the house again—to buy food for both of you."
         android:textColor="@color/white"
         android:textSize="25sp"
         android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Go Back to Title Page"
+        android:onClick="title12" />
 
     <View
         android:layout_width="match_parent"

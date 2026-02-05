@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_2_2"
+    android:id="@+id/page2_1_2_2_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -11,7 +11,7 @@
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:padding="16dp"
-    tools:context=".Page2_1_2_2">
+    tools:context=".Page2_1_2_2_1">
 
     <View
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
         android:gravity="center"
         android:fontFamily="@font/pixelgame_font"
         android:padding="5dp"
-        android:text="(Talk to your classmate.)"
+        android:text="(Agree to help.)"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="italic"/>
@@ -47,9 +47,8 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You see Sam, a former classmate.
-\n\nThey look surprised to see you. “You’ve been skipping a lot lately, huh?”
-\n\nThey invite you to help them study for an upcoming exam that could decide both of your futures."
+        android:text="Days pass as you study together. It’s exhausting—but meaningful.
+\n\nWhen results come out, you both pass."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="italic"
@@ -67,8 +66,8 @@
         android:background="@android:color/transparent"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:text="Agree to help."
-        android:onClick="page2_1_2_2_1" />
+        android:text="Celebrate together."
+        android:onClick="page2_1_2_2_1_1" />
 
     <Button
         android:layout_width="412dp"
@@ -77,8 +76,8 @@
         android:background="@android:color/transparent"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:text="Brush them off and leave."
-        android:onClick="page2_1_2_2_2" />
+        android:text="Go your separate ways quietly."
+        android:onClick="page2_1_2_2_1_2" />
 
     <View
         android:layout_width="match_parent"
