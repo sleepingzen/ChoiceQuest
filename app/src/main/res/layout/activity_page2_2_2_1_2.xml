@@ -28,9 +28,11 @@
         android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="35dp"
         android:gravity="center"
-        android:text="Decline."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Decline.)"
         android:textColor="@color/white"/>
 
     <TextView
@@ -38,9 +40,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
-        android:padding="16dp"
+        android:padding="23dp"
         android:text="You wander again. Hunger returns, just like before.\n\nYou walk through the town, witnessing many different events.\n\nYou realize that the world doesn’t revolve around you. It continues to spin even if you don’t do anything.\n\n(Endless Loop Ending)
 "
         android:textColor="@color/white"

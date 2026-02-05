@@ -32,12 +32,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Chase it out.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,11 +59,6 @@
         android:layout_marginBottom="16dp"
         android:text="Go Back to Title Page"
         android:onClick="title13" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.5"/>
 
     <View
         android:layout_width="match_parent"

@@ -26,26 +26,32 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="Look out the window."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Read the notice board.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You stare outside. The world keeps moving without you.\n\nA cat sits on the fence, staring back.\n\nDark clouds gather in the distance."
+        android:text="One notice stands out:\n“Volunteers needed for the old lighthouse.” \n\nPeople whisper that strange lights appear there at night."
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
     <View
         android:layout_width="match_parent"
@@ -55,21 +61,12 @@
         android:id="@+id/btnStayHelp"
         android:layout_width="410dp"
         android:layout_height="45dp"
-        android:text="Watch the cat."
+        android:text="Investigate the lighthouse."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnLeaveTell"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Watch the storm."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="activity_page2_1_2_3_1"/>
 
     <View
         android:layout_width="match_parent"

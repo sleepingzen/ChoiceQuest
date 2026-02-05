@@ -33,33 +33,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Give him half.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="He leaves without a word.
-        \n\nYou keep your wealth, but never feel relief.
-        \n\nYou felt as though the treasure was worth less than what connection you had with Ralph.
-        \n\nDeep down, you regret what you did, but realize that there is no turning back."
+        android:text="He leaves without a word.\n\nYou keep your wealth, but never feel relief.\n\nYou felt as though the treasure was worth less than what connection you had with Ralph.\n\nDeep down, you regret what you did, but realize that there is no turning back."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="01"/>
 
     <Button
         android:layout_width="412dp"

@@ -33,28 +33,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Talk about plans for the future.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You hesitate for a moment, then speak.
-\n\n “Now that this is over… what do you want to do next?”
-\n\nThey look thoughtful, eyes drifting toward the road ahead.
-\n “I don’t really know,” they admit. “But I think I want to try. Really try.”
-\n\nYou talk about possibilities—continuing school, leaving town someday, staying and building something familiar. None of it sounds certain, but it doesn’t feel impossible either.
-\n\nFor the first time in a while, the future feels like something you can walk toward instead of wait for."
+        android:text="You hesitate for a moment, then speak.\n\n “Now that this is over… what do you want to do next?\n\nThey look thoughtful, eyes drifting toward the road ahead.\n “I don’t really know,” they admit. “But I think I want to try. Really try.”\n\nYou talk about possibilities—continuing school, leaving town someday, staying and building something familiar. None of it sounds certain, but it doesn’t feel impossible either.n\nFor the first time in a while, the future feels like something you can walk toward instead of wait for."
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="italic"
         android:layout_marginBottom="16dp"/>
 
@@ -78,9 +77,9 @@
         android:layout_height="45dp"
         android:fontFamily="@font/quest_font"
         android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:layout_marginBottom="16dp"
-        android:text="Encourage them to follow their own path, even if it separates you."
+        android:text="Encourage them to follow their own path,even if it separates you."
         android:onClick="page2_1_2_2_1_1_1_2" />
 
     <View

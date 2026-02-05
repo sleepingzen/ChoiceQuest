@@ -30,24 +30,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Let the feeling carry you away.)"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"/>
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:text="The room fades, replaced by warmth and distant echoes of places you almost remember.\n\nTime stops meaning anything.\n\nHunger, discomfort, worry—all of it feels irrelevant now.\n\nYou don’t resist the drift.\n\n(Overextended 5 More Minutes Ending: Detachment)"
         android:textColor="@color/white"
-        android:textSize="22sp" />
+        android:textSize="23sp" />
 
     <View
         android:layout_width="match_parent"

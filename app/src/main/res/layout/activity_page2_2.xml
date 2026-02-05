@@ -21,29 +21,37 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3"/>
+        android:src="@drawable/page2_2"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="5 more minutes."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(5 more minutes.)"
         android:textColor="#FFFFFF"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You close the window’s curtains and go back to sleep. You are 3 hours late from 5 minutes, and it is now afternoon. You feel your stomach grumbling."
         android:textColor="#FFFFFF"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
@@ -59,7 +67,8 @@
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="page2_2_1"/>
 
     <Button
         android:id="@+id/btnOption2"
@@ -69,7 +78,8 @@
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="page2_2_1_1"/>
 
     <Button
         android:id="@+id/btnOption3"

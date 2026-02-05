@@ -26,37 +26,35 @@
 
     <View
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" />
+
+    <View
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="5dp"
         android:text="(Suggest staying in touch and working toward a shared goal.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic" />
+        android:textSize="20sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
-        android:text="They smile at the idea. Not a big smile—just a real one.
-\n“Yeah,” they say. “I’d like that.”
-\n\nYou make simple plans. Nothing dramatic. Just promises to meet again, to help each other when things get difficult.
-\n\nLife doesn’t suddenly become easy—but it feels less lonely.
-\nYou don’t know where you’ll end up.
-\n\nBut you know you won’t be walking there alone."
+        android:text="They smile at the idea. Not a big smile—just a real one.\n“Yeah,” they say. “I’d like that.\n\nYou make simple plans. Nothing dramatic. Just promises to meet again, to help each other when things get difficult.\n\nLife doesn’t suddenly become easy—but it feels less lonely.\nYou don’t know where you’ll end up.\n\nBut you know you won’t be walking there alone."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic" />
+        android:textSize="21sp" />
 
     <View
         android:layout_width="match_parent"

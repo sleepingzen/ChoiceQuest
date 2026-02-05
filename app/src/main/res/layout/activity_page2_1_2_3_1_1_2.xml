@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3_1_2" />
+        android:src="@drawable/page2_1_2_3_1_1" />
 
     <View
         android:layout_width="match_parent"
@@ -30,16 +30,23 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text=" Leave and tell the town."
+        android:text="(Leave and tell the town.)"
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
         android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.4"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
+        android:background="#80000000"
         android:text="The lighthouse is shut down. You look back one last time to the lighthouse, seeing the old keeper at the top, pointing at you before they vanish.\n\nShips avoid the coast afterward.\n\nYou did the “right” thing—yet something feels wrong.\n\n(Extinguished Light Ending)"
         android:textColor="@color/white"
         android:textSize="22sp"
@@ -54,5 +61,15 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Go back to title page"
+        android:onClick="title13" />
 
 </LinearLayout>

@@ -24,26 +24,28 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="0dp"
         android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="55dp"
         android:gravity="center"
-        android:text="Walk slowly through town, observing everything before buying anything."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Walk slowly through town, observing everything before buying anything.)"
         android:textColor="@color/white"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You linger near the fountain, watching water ripple in the sunlight. Children chase each other, laughing.\n\nIt’s all ordinary, but the simplicity feels grounding.\n\nEventually, your stomach reminds you why you came. You gather what you need and prepare to leave.
 The world keeps moving, but for now, you feel a little steadier, a little more in control.\n\n(Mindful Pause Ending)"
         android:textColor="@color/white"
-        android:textSize="19sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
     <View
         android:layout_width="match_parent"

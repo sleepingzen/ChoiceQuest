@@ -28,9 +28,11 @@
         android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="35dp"
         android:gravity="center"
-        android:text="Accept help."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Accept help.)"
         android:textColor="@color/white"/>
 
     <TextView
@@ -38,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:text="You wake up in a clinic.\n\nSomeone cared enough to stop.\n\nYou decide to try again.\n\n(Second Chance Ending)"

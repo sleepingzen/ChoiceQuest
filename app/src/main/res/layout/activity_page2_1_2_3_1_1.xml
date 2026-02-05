@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page2_1_2_3_1_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -26,20 +27,28 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="25dp"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
-        android:text="Stay and help."
-        android:textColor="@color/white"/>
+        android:text="(Stay and help.)"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.5"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
+        android:background="#80000000"
         android:text="Days turn into weeks. You learn the rhythm of the light.\n\nThe old keeper gives you a tap on the shoulder. You felt as though a big responsibility was passed onto you.\n\nDays turn into weeks. You learn the rhythm of the light.
 
 The old keeper gives you a tap on the shoulder. You felt as though a big responsibility was passed onto you.
@@ -48,7 +57,7 @@ You disappear from town records, but sailors are always guided safely home.\n\n
 (The Watcher Ending)
 "
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
     <View
@@ -60,5 +69,16 @@ You disappear from town records, but sailors are always guided safely home.\n\n
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Go back to title page"
+        android:onClick="title12" />
+
 
 </LinearLayout>

@@ -28,15 +28,22 @@
         android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="55dp"
         android:gravity="center"
-        android:text="Buy everything you need and head home immediately.."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Buy everything you need and head home immediately.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
@@ -44,7 +51,7 @@
 Back home, you set everything down and sit for a moment, letting the weight of the day sink in.
 The kitchen feels warmer now. The small meal earlier seems like a distant comfort—but it helped.\n\nYou made it through the day. It isn’t grand, but it’s progress. Tomorrow, you can do it again.\n\n(Steady Recovery Ending)"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View

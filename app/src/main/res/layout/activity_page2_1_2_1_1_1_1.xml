@@ -33,27 +33,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Tell the truth.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:layout_marginBottom="16dp"
+        android:background="#80000000"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
-        android:text="You admit the letter isn’t yours and that you were paid to deliver it. The guards exchange looks, then take the letter from you.
-\n\nDays later, the hooded trader is arrested. Your name spreads as someone honest—but unreliable for shady work.
-\n\nYou live modestly, occasionally hired for legitimate deliveries. You never get rich, but you sleep without fear."
+        android:text="You admit the letter isn’t yours and that you were paid to deliver it. The guards exchange looks, then take the letter from you.\n\nDays later, the hooded trader is arrested. Your name spreads as someone honest—but unreliable for shady work.\n\nYou live modestly, occasionally hired for legitimate deliveries. You never get rich, but you sleep without fear."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="23sp" />
 
     <View
         android:layout_width="match_parent"

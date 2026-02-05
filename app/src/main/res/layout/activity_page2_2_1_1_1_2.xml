@@ -28,15 +28,22 @@
         android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="55dp"
         android:gravity="center"
-        android:text="Explore the market a little more while you’re here."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Explore the market a little more while you’re here.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
@@ -44,7 +51,7 @@
 A street performer catches your attention, juggling knives with precision.\n\nYou watch for a while, feeling a strange lightness in your chest, a reminder that life is still moving around you.
 Eventually, the bags you carry remind you of reality.\n\nYou make your purchases and head home, mind buzzing with small, unspoken joy.\n\nIt isn’t much, but it’s enough to make you feel alive again for a moment.\n\n(Fleeting Distraction Ending)"
         android:textColor="@color/white"
-        android:textSize="19sp"
+        android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
     <View
         android:layout_width="match_parent"

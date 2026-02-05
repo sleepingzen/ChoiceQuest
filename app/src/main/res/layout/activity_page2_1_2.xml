@@ -33,24 +33,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="2dp"
         android:text="(Go to the market.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You head into town, the market already buzzing with voices and clinking coins. Merchants shout deals, children run between stalls, and the smell of cooked food makes your stomach twist again.\n\nA hooded trader waves you over\n\nA familiar classmate notices you from a distance.\n\nA notice board catches your eye."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
 
     <View

@@ -24,6 +24,16 @@
         android:layout_height="250dp"
         android:src="@drawable/page2_1_2_3_1_1"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/pixelspace"
+        android:padding="5dp"
+        android:text="(Walk straight past the guards.)"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -32,25 +42,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
-        android:padding="5dp"
-        android:text="(Walk straight past the guards.)"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="A guard stops you.\n\n“What’s in the letter?”\n\nYou hesitate."
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View

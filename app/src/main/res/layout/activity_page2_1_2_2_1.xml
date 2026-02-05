@@ -33,12 +33,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Agree to help.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -47,17 +51,15 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="Days pass as you study together. It’s exhausting—but meaningful.
-\n\nWhen results come out, you both pass."
+        android:text="Days pass as you study together. It’s exhausting—but meaningful.\n\nWhen results come out, you both pass."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="412dp"
