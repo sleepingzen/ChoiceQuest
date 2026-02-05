@@ -43,7 +43,6 @@ public class Page2_1_1_1 extends AppCompatActivity {
         }
 
         tv_page2_1_1_1.setText(
-                "(Go fishing with the fisherman.)\n\n" +
                         "You step on the boat, and sail with the fisherman.\n\n" +
                         "“What’s your name, kid?” The fisherman asks, to which you reply with " + str_characternaming+
                         ".\n\nThe name’s Ralph, pleasure to meet you on this fine day." +

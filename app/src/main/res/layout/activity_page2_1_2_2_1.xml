@@ -69,16 +69,6 @@
         android:text="Celebrate together."
         android:onClick="page2_1_2_2_1_1" />
 
-    <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
-        android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
-        android:text="Go your separate ways quietly."
-        android:onClick="page2_1_2_2_1_2" />
-
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"

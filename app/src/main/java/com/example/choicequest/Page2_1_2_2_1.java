@@ -29,10 +29,4 @@ public class Page2_1_2_2_1 extends AppCompatActivity {
         startActivity(i);
         finish();
     }
-
-    public void page2_1_2_2_1_2(View view){
-        Intent i = new Intent(Page2_1_2_2_1.this, Page2_1_2_2_1_2.class);
-        startActivity(i);
-        finish();
-    }
 }

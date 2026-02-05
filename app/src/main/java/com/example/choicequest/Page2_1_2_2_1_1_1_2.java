@@ -26,7 +26,7 @@ public class Page2_1_2_2_1_1_1_2 extends AppCompatActivity {
         Toast.makeText(this, "Parallel Paths Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title10(View view){
+    public void title14(View view){
         Intent i = new Intent(Page2_1_2_2_1_1_1_2.this, MainActivity.class);
         startActivity(i);
         finish();

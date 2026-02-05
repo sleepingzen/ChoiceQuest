@@ -68,7 +68,7 @@
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
-        android:onClick="title10"
+        android:onClick="title14"
         android:text="Go Back to Title Page"
         android:textSize="12sp" />
 
