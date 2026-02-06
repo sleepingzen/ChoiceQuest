@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -65,6 +66,8 @@ public class Page2_1_1_1_1_1_2_2 extends AppCompatActivity {
                 }
             }
         }, delay);
+
+        Toast.makeText(this, "Runaway Fortune Ending", Toast.LENGTH_LONG).show();
     }
 
     public void title17(View view){
