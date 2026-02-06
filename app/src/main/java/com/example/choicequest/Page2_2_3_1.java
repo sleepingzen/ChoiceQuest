@@ -27,7 +27,7 @@ public class Page2_2_3_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_page2_2_3);
+        setContentView(R.layout.activity_page2_2_3_1);
         View root = findViewById(R.id.page2_2_3_1);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.page2_2_3_1), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

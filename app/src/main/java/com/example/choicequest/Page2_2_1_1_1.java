@@ -67,7 +67,7 @@ public class Page2_2_1_1_1 extends AppCompatActivity {
             }
         }, delay);
 
-        Toast.makeText(this, "Mindful Pause Ending", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Steady Recovery Ending", Toast.LENGTH_LONG).show();
     }
 
     public void title31(View view){
