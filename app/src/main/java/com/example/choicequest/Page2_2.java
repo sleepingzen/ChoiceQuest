@@ -1,6 +1,9 @@
 package com.example.choicequest;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,23 @@ public class Page2_2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void page2_2_1(View view){
+        Intent i = new Intent(Page2_2.this, Page2_2_1.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void page2_2_2(View view){
+        Intent i = new Intent(Page2_2.this, Page2_2_2.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void page2_2_3(View view){
+        Intent i = new Intent(Page2_2.this, Page2_2_3.class);
+        startActivity(i);
+        finish();
     }
 }

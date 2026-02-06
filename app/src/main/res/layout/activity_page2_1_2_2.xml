@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/page2_1_2_2"
     android:layout_width="match_parent"
@@ -41,6 +40,7 @@
         android:textStyle="italic"/>
 
     <TextView
+        android:id="@+id/tv_page2_1_2_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pixelgame_font"
@@ -48,7 +48,7 @@
         android:padding="16dp"
         android:background="#80000000"
         android:text="You see Sam, a former classmate.
-\n\nThey look surprised to see you. “You’ve been skipping a lot lately, huh?”
+\n\nThey look surprised to see you. “Hey, *name*. You’ve been skipping a lot lately, huh?”
 \n\nThey invite you to help them study for an upcoming exam that could decide both of your futures."
         android:textColor="@color/white"
         android:textSize="20sp"

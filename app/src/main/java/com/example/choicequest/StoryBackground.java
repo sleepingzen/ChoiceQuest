@@ -28,9 +28,7 @@ public class StoryBackground extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_storybackground);
-
         View root = findViewById(R.id.storybackground);
-
         ViewCompat.setOnApplyWindowInsetsListener(
                 root,
                 (v, insets) -> {

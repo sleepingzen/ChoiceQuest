@@ -22,8 +22,7 @@ public class Page2_1_1_1 extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page2_1_1_1);
 
-        ViewCompat.setOnApplyWindowInsetsListener(
-                findViewById(R.id.page2_1_1_1),
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.page2_1_1_1),
                 (v, insets) -> {
                     Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
                     v.setPadding(
@@ -33,8 +32,7 @@ public class Page2_1_1_1 extends AppCompatActivity {
                             systemBars.bottom
                     );
                     return insets;
-                }
-        );
+        });
 
         tv_page2_1_1_1 = findViewById(R.id.tv_page2_1_1_1);
 
