@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_2_3_1"
+    android:id="@+id/page2_2_3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -11,7 +11,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Page2_2_3_1">
+    tools:context=".Page2_2_3">
 
     <View
         android:layout_width="match_parent"
@@ -34,13 +34,13 @@
         android:gravity="center"
         android:fontFamily="@font/pixelspace"
         android:textSize="22sp"
-        android:text="(5. More. Minutes.)"
+        android:text="(5 More Minutes)"
         android:textColor="@color/white"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_page2_2_3_1"
+        android:id="@+id/tv_page2_2_3"
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
@@ -54,36 +54,15 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
-
     <Button
         android:layout_width="410dp"
         android:layout_height="45dp"
-        android:text="Try to move, even just a finger."
+        android:text="5. More. Minutes."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:onClick="page2_2_3_1_1"/>
-
-    <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Lie back down."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
-        android:onClick="page2_2_3_1_2"/>
-
-    <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:text="Let the feeling carry you away."
-        android:textSize="12sp"
-        android:onClick="page2_2_3_1_3"/>
+        android:onClick="page2_2_3_1"/>
 
     <View
         android:layout_width="match_parent"

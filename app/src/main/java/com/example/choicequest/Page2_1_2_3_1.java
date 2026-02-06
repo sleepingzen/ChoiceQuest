@@ -68,13 +68,13 @@ public class Page2_1_2_3_1 extends AppCompatActivity {
     }
 
     public void page2_1_2_3_1_1(View view) {
-        Intent i = new Intent(Page2_1_2_3_1.this, page2_1_2_3_1_1.class);
+        Intent i = new Intent(Page2_1_2_3_1.this, Page2_1_2_3_1_1.class);
         startActivity(i);
         finish();
     }
 
     public void page2_1_2_3_1_2(View view) {
-        Intent i = new Intent(Page2_1_2_3_1.this, page2_1_2_3_1_2.class);
+        Intent i = new Intent(Page2_1_2_3_1.this, Page2_1_2_3_1_2.class);
         startActivity(i);
         finish();
     }
