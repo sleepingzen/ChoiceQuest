@@ -23,8 +23,6 @@ public class Page2_1_2_2 extends AppCompatActivity {
     private Handler h = new Handler();
     private boolean isTyping = true;
 
-    TextView tv_page2_1_2_2;
-
     String str_characternaming = CharacterNameSaver.characterName;
 
     @Override
@@ -32,8 +30,10 @@ public class Page2_1_2_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page2_1_2_2);
+
         View root = findViewById(R.id.page2_1_2_2);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.page2_1_2_2), (v, insets) -> {
+
+        ViewCompat.setOnApplyWindowInsetsListener(root, (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -41,11 +41,21 @@ public class Page2_1_2_2 extends AppCompatActivity {
 
         myTextView = findViewById(R.id.tv_page2_1_2_2);
 
-        fullText = myTextView.getText().toString();
+        if (str_characternaming == null || str_characternaming.isEmpty()) {
+            str_characternaming = "???";
+        }
+
+        fullText =
+                "You see Sam, a former classmate." +
+                        "\n\nThey look surprised to see you. “Hey, " + str_characternaming +
+                        ". You’ve been skipping a lot lately, huh?”" +
+                        "\n\nThey invite you to help them study for an upcoming exam that could decide both of your futures.";
+
         myTextView.setText("");
 
         typeText();
 
+        // tap to skip typing
         root.setOnClickListener(v -> {
             if (isTyping) {
                 isTyping = false;
@@ -69,16 +79,6 @@ public class Page2_1_2_2 extends AppCompatActivity {
                 }
             }
         }, delay);
-
-        tv_page2_1_2_2 = findViewById(R.id.tv_page2_1_2_2);
-
-        if (str_characternaming == null || str_characternaming.isEmpty()) {
-            str_characternaming = "???";
-        }
-
-        tv_page2_1_2_2.setText("You see Sam, a former classmate." +
-                "\n\nThey look surprised to see you. “Hey, "+str_characternaming+". You’ve been skipping a lot lately, huh?”" +
-                "\n\nThey invite you to help them study for an upcoming exam that could decide both of your futures.");
     }
 
     public void page2_1_2_2_1(View view){
