@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_1_1"
+    android:id="@+id/page2_1_1_1_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
-    android:padding="16dp"
-    tools:context=".Page2_1_1_1">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="1"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -26,44 +26,45 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
-
+        android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="37dp"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace_font"
-        android:padding="5dp"
-        android:text="(Go fishing with the fisherman.)"
+        android:fontFamily="@font/pixelspace"
+        android:text="(“Got any bait I can use?”)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp"/>
 
     <TextView
-        android:id="@+id/tv_page2_1_1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelgame_font"
-        android:layout_marginBottom="16dp"
-        android:textSize="20sp"
-        android:text="You step on the boat, and sail with the fisherman.
-\n\n“What’s your name, kid?” The fisherman asks, which you reply to with
-\n\nThe name’s Ralph, pleasure to meet you on this fine day. Here’s your  rod *name*.
-\n\nIf you catch a fish for me, I’ll reward you with coins.”  Says Ralph."/>
-
-    <Button
+        android:text="You step on the boat, and sail with the fisherman. “What’s your name, kid?” The fisherman asks, which you reply to with *name*.\n\n“The name’s Ralph, pleasure to meet you on this fine day. Here’s your  rod *name*. If you catch a fish for me, I’ll reward you with coins.”  Says Ralph."
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"/>
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/quest_font"
-        android:gravity="center"
-        android:padding="16dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.5"/>
+    <Button
+        android:id="@+id/btnStayHelp"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:text="Join them."
         android:background="@android:color/transparent"
-        android:text="Got any bait?"
+        android:fontFamily="@font/quest_font"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
         android:onClick="page2_1_1_1_1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

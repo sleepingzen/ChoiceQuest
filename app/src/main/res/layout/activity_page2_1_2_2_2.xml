@@ -32,20 +32,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="5dp"
         android:text="(Brush them off and leave.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic" />
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:text="Your classmate watches you go, disappointed.
@@ -53,7 +57,7 @@
 \n\nYou did not try again.
 \n\nNothing dramatic happens—just the quiet realization that you let something important slip away."
         android:textColor="@color/white"
-        android:textSize="20sp"/>
+        android:textSize="23sp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

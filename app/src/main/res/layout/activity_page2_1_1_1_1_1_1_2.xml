@@ -24,6 +24,16 @@
         android:layout_height="250dp"
         android:src="@drawable/page2_1_2_3_1_1"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelspace"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="(Decline Ralph’s request, but become a merchant yourself.)"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -33,19 +43,12 @@
         android:id="@+id/tv_page2_1_1_1_1_1_1_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
         android:textColor="#FFFFFF"
+        android:background="#80000000"
         android:fontFamily="@font/pixelgame_font"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:textSize="20sp"
-        android:text="(Decline Ralph’s request, but become a merchant yourself.)
-        \n\nThe two of you part ways, remaining as friends.
-        \n\nYou sign up alone as a merchant, stocking up what is mostly needed in your town. You become a reputable merchant in your town, being someone that provides the people what they need at a reasonable price.
-        \nYou hear news of your friend, Ralph’s downfall as a merchant, which led to him returning to the fisherman lifestyle.
-        \n\nYou feel saddened by the news, but think that it is not your responsibility."/>
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="The two of you part ways, remaining as friends.\n\nYou sign up alone as a merchant, stocking up what is mostly needed in your town. You become a reputable merchant in your town, being someone that provides the people what they need at a reasonable price.\n\nYou hear news of your friend, Ralph’s downfall as a merchant, which led to him returning to the fisherman lifestyle.\n\nYou feel saddened by the news, but think that it is not your responsibility."/>
 
 
     <Button

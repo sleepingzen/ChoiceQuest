@@ -16,7 +16,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.01"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,28 +24,36 @@
         android:layout_height="250dp"
         android:src="@drawable/page2_1_2_3_1_1"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelspace"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="(Accept Ralph’s suggestion.)"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_height="0dp"
+        android:layout_weight="0.01"/>
 
     <TextView
         android:id="@+id/tv_page2_1_1_1_1_1_1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
+        android:gravity="center"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelgame_font"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:textSize="20sp"
-        android:text="(Accept Ralph’s suggestion.)
-        \n\nWith the help of Ralph, you sign up as joint merchants, dealing a huge blow to the market with the funds you have from the treasure that you sold.
-        \n\nPrices of items in the market rise and drop, the two of you being the mastermind of it all.
-        \n\nYou successfully overthrow the other merchant groups, ultimately monopolizing the market as Ralph planned."/>
+        android:background="#80000000"
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="With the help of Ralph, you sign up as joint merchants, dealing a huge blow to the market with the funds you have from the treasure that you sold.\n\nPrices of items in the market rise and drop, the two of you being the mastermind of it all.\n\nYou successfully overthrow the other merchant groups, ultimately monopolizing the market as Ralph planned."/>
 
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -53,8 +61,14 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
+        android:textSize="12sp"
         android:background="@android:color/transparent"
         android:text="Go Back to Title Page"
         android:onClick="title2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
 </LinearLayout>

@@ -14,11 +14,16 @@
     android:focusable="true"
     tools:context=".StoryBackground">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
-        android:textColor="@color/black"
+        android:fontFamily="@font/pixelspace"
+        android:textColor="@color/white"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
@@ -49,5 +54,10 @@
         android:layout_marginTop="140dp"
     android:text="Press Anywhere to Continue"
     android:onClick="page1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="19"/>
 
 </LinearLayout>

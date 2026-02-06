@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3_1_1"/>
+        android:src="@drawable/page2_2_2_2" />
 
     <View
         android:layout_width="match_parent"
@@ -30,19 +30,26 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="Go out and buy something."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Go out and buy something.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You step outside, weak and dizzy.\n\nA bakery smells inviting.\n\nA street performer distracts you.\n\nYou collapse."
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
@@ -52,17 +59,18 @@
 
     <Button
         android:id="@+id/btnOption1"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Buy food."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="page2_2_2_1"/>
 
     <Button
         android:id="@+id/btnOption2"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Stop and watch."
         android:background="@android:color/transparent"
@@ -72,7 +80,7 @@
 
     <Button
         android:id="@+id/btnOption3"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"

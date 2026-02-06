@@ -28,8 +28,10 @@
         android:layout_weight="0.1"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="35dp"
         android:gravity="center"
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
         android:text="Refuse help."
         android:textColor="@color/white"/>
 
@@ -38,13 +40,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:text="You push them away and collapse again later.This time, no one stops.
 \n\nSome laugh at you as they see you fall over and over again.\n\nSome are inspired by your will to continue onwards without help, even if it makes you fall continuously\n\n(Prideful Collapse Ending)"
         android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:textSize="23sp" />
 
     <View
         android:layout_width="match_parent"

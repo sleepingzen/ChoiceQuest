@@ -21,7 +21,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3_1_1"/>
+        android:src="@drawable/page2_1_3_1"/>
 
     <View
         android:layout_width="match_parent"
@@ -32,30 +32,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Watch the cat.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.5" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="The cat suddenly jumps inside through your open window.
 \n\nIt refuses to leave."
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.5"/>
 
     <Button
         android:layout_width="412dp"
@@ -80,6 +84,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.5"/>
 
 </LinearLayout>

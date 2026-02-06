@@ -30,29 +30,45 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
-        android:text="Help reinforce homes."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Help reinforce homes.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You work until exhaustion. By reinforcing houses with the townspeople, you helped avoid a disaster.\n\nYou are remembered not for wealth, but for being there when it mattered.\n\n(Community Pillar Ending)"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Go Back to Title Page"
+        android:onClick="" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="1"/>
+        android:layout_weight="0.5"/>
 
 </LinearLayout>

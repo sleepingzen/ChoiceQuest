@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Go to the pond.)"
         android:textColor="@color/white"
@@ -42,15 +42,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#80000000"
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#80000000"
         android:text="You go outside and walk to the pond. A fisherman spots you.
 \n\n“Hey, kid! You wanna go fishing with me?” The fisherman shouts."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="25sp" />
 
     <View
         android:layout_width="match_parent"

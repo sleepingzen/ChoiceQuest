@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_1_1_1_1"
+    android:id="@+id/page2_1_1_1_1_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -27,29 +27,34 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.01"/>
     <TextView
-        android:id="@+id/tv_page2_1_1_1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelgame_font"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        android:textSize="20sp"
-        android:text="(Got any bait I can use?)
-        \n\n“Ah! How could I forget? Of course, of course. Here, take these maggots. Surely we can catch something good with this.” Ralph says, his face showing a hopeful demeanor."/>
+        android:gravity="center"
+        android:fontFamily="@font/pixelspace"
+        android:padding="5dp"
+        android:text="(Watch the cat.)"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelspace"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#80000000"
+        android:text="“Ah! How could I forget? Of course, of course. Here, take these maggots. Surely we can catch something good with this.\n\n” Ralph says, his face showing a hopeful demeanor."
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
         android:gravity="center"
-        android:textStyle="italic"
         android:padding="16dp"
         android:background="@android:color/transparent"
         android:text="Your fishing rod shakes… Something has caught on!"
@@ -64,5 +69,8 @@
         android:background="@android:color/transparent"
         android:text="Nothing happens."
         android:onClick="page2_1_1_1_1_2"/>
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
 </LinearLayout>

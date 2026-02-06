@@ -32,30 +32,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="5dp"
         android:text="(Encourage them to follow their own path.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic" />
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
-        android:text="They seem surprised—then grateful.
-\n“Thank you,” they say quietly. “I was afraid to say that out loud.”
-\n\nYou part ways later that evening, not awkwardly, not sadly. Just honestly.
-\n\nSometimes, caring means letting go.
-\n\nYou both move forward, shaped by the same moment, the same struggles—even if your roads never cross again."
+        android:text="They seem surprised—then grateful.\n“Thank you,” they say quietly. “I was afraid to say that out loud.”\n\nYou part ways later that evening, not awkwardly, not sadly. Just honestly.\n\nSometimes, caring means letting go.\n\nYou both move forward, shaped by the same moment, the same struggles—even if your roads never cross again."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic" />
+        android:textSize="21sp" />
 
     <View
         android:layout_width="match_parent"

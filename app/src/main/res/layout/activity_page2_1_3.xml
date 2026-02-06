@@ -33,17 +33,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace_font"
+        android:fontFamily="@font/pixelspace"
         android:padding="5dp"
         android:text="(Look out the window.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic"/>
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
@@ -52,7 +51,7 @@
 \nDark clouds gather in the distance.
 \nYou see the fisherman’s boat far away."
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_page2_2_1_2"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,36 +30,42 @@
         android:layout_weight="0.1" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="55dp"
         android:gravity="center"
-        android:text="Step outside and take a moment before leaving."
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
+        android:text="(Step outside and take a moment before leaving.)"
         android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You pause just outside your door. The sun is high, and the town hums softly around you.\n\nYou notice small details: a child chasing a stray dog, smoke curling from a baker’s chimney, the way the wind brushes through the trees.\n\nFor a moment, you breathe it all in. Just being here feels… alive."
         android:textColor="#FFFFFF"
-        android:textSize="19sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.5"/>
+        android:layout_weight="0.3"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:text="Walk slowly through town, observing everything before buying anything."
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:onClick="page2_2_1_2_1"/>
 
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 </LinearLayout>

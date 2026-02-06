@@ -32,20 +32,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="5dp"
         android:text="(Just enjoy the moment without saying anything.)"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="italic" />
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:text="You don’t say anything.
@@ -59,8 +58,7 @@
 \n\nIt’s the stillness.
 \n\nAnd how, for a little while, that was enough."
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic" />
+        android:textSize="15sp" />
 
     <View
         android:layout_width="match_parent"

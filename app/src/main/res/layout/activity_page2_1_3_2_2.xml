@@ -29,26 +29,43 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="25dp"
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
         android:gravity="center"
-        android:text="Stay inside."
+        android:text="(Stay inside.)"
         android:textColor="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelgame_font"
+        android:fontFamily="@font/pixelspace"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="Your house stays dry. Others aren’t as lucky.\n\nYou survive untouched—and unchanged.\n\n(Safe but Silent Ending)"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/quest_font"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:text="Go Back to Title Page"
+        android:onClick="" />
 
     <View
         android:layout_width="match_parent"

@@ -24,23 +24,32 @@
         android:layout_height="250dp"
         android:src="@drawable/page2_1_2_3_1_1"/>
 
-    <View
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.1"/>
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelspace"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="(Push Ralph off the boat and take the treasure for yourself)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/tv_page2_1_1_1_1_1_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
+        android:gravity="center"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelgame_font"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
+        android:background="#80000000"
+        android:fontFamily="@font/pixelspace"
         android:textSize="20sp"
-        android:text="You shove Ralph into the water. He disappears beneath the surface, shouting. You row back alone, heart pounding."/>
+        android:padding="16dp"
+        android:text="You shove Ralph into the water.\n\nHe disappears beneath the surface, shouting. You row back alone, heart pounding."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
 
     <Button
@@ -63,5 +72,8 @@
         android:text="Sell the treasure immediately."
         android:onClick="page2_1_1_1_1_1_2_2" />
 
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 </LinearLayout>

@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page2_1_2_3_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -30,8 +31,15 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:gravity="center"
+        android:fontFamily="@font/pixelspace"
+        android:textSize="22sp"
         android:text="(Investigate the lighthouse.)"
         android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -39,36 +47,36 @@
         android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
-        android:text="You go at night. The light flickers strangely.
-Inside, you find an old keeper who never left, tending the light endlessly.
-"
+        android:background="#80000000"
+        android:text="You go at night. The light flickers strangely.\nInside, you find an old keeper who never left, tending the light endlessly."
         android:textColor="@color/white"
         android:textSize="25sp"
         android:layout_marginBottom="16dp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.5"/>
+        android:layout_weight="1"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Stay and help."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="activity_page2_1_2_3_1_1"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Leave and tell the town."
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:onClick="activity_page2_1_2_3_1_2"/>
 
     <View
         android:layout_width="match_parent"
