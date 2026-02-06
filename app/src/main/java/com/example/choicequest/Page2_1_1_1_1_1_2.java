@@ -75,6 +75,7 @@ public class Page2_1_1_1_1_1_2 extends AppCompatActivity {
 
     public void page2_1_1_1_1_1_2_2(View view) {
         Intent i = new Intent(Page2_1_1_1_1_1_2.this, Page2_1_1_1_1_1_2_2.class);
-
+        startActivity(i);
+        finish();
     }
 }
