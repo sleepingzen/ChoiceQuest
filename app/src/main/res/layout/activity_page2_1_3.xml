@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_2_3_1_1"/>
+        android:src="@drawable/page2_1_3"/>
 
     <View
         android:layout_width="match_parent"
