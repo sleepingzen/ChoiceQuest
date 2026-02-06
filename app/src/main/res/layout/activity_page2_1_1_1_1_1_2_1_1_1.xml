@@ -42,7 +42,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_1_1_1_1_1_2_1_1_1"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"

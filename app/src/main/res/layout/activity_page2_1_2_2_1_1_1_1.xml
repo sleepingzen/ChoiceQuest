@@ -47,9 +47,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_1_2_2_1_1_1_1"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:text="They smile at the idea. Not a big smile—just a real one.\n“Yeah,” they say. “I’d like that.\n\nYou make simple plans. Nothing dramatic. Just promises to meet again, to help each other when things get difficult.\n\nLife doesn’t suddenly become easy—but it feels less lonely.\nYou don’t know where you’ll end up.\n\nBut you know you won’t be walking there alone."

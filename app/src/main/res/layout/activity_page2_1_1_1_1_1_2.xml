@@ -41,7 +41,7 @@
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:textSize="20sp"
         android:padding="16dp"
         android:text="You shove Ralph into the water.\n\nHe disappears beneath the surface, shouting. You row back alone, heart pounding."/>

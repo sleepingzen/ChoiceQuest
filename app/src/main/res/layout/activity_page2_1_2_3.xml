@@ -10,7 +10,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_1_2_3">
 
     <View
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_1_2_3"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
@@ -66,7 +68,7 @@
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:onClick="activity_page2_1_2_3_1"/>
+        android:onClick="page2_1_2_3_1"/>
 
     <View
         android:layout_width="match_parent"

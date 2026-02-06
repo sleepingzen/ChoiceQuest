@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_page2_1_3_2"
+    android:id="@+id/page2_1_3_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -10,7 +10,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_1_3_2">
 
     <View
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="250dp"
-        android:src="@drawable/page2_1_3_2"
+        android:src="@drawable/page2_1_3_2"/>
 
     <View
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_1_3_2"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"

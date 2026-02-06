@@ -68,13 +68,13 @@ public class Page2_2_1_1 extends AppCompatActivity {
         }, delay);
     }
 
-    public void page2_2_1_2_1(View view){
+    public void page2_2_1_1_1(View view){
         Intent i = new Intent(Page2_2_1_1.this, Page2_2_1_1_1.class);
         startActivity(i);
         finish();
     }
 
-    public void page2_2_1_2_2(View view){
+    public void page2_2_1_1_2(View view){
         Intent i = new Intent(Page2_2_1_1.this, Page2_2_1_1_2.class);
         startActivity(i);
         finish();

@@ -45,7 +45,7 @@
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:textSize="22sp"
         android:text="With the help of Ralph, you sign up as joint merchants, dealing a huge blow to the market with the funds you have from the treasure that you sold.\n\nPrices of items in the market rise and drop, the two of you being the mastermind of it all.\n\nYou successfully overthrow the other merchant groups, ultimately monopolizing the market as Ralph planned."/>
 

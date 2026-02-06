@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_page2_2_2_3"
+    android:id="@+id/page2_2_2_3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -10,7 +10,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_2_3">
 
     <View
         android:layout_width="match_parent"
@@ -44,13 +45,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_2_2_3"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="Someone catches you before you hit the ground.
-
-“You okay?” they ask."
+\n\n“You okay?” they ask."
         android:textColor="@color/white"
         android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
@@ -78,7 +79,7 @@
         android:fontFamily="@font/quest_font"
         android:text="Refuse help."
         android:textSize="12sp"
-        android:onClick="page2_2_2_3_1"/>
+        android:onClick="page2_2_2_3_2"/>
 
     <View
         android:layout_width="match_parent"

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_2_1_1_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_1_1_1">
 
     <View
         android:layout_width="match_parent"
@@ -26,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -43,13 +46,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_2_1_1_1"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You carry your items carefully, balancing the bag so nothing falls.
 Back home, you set everything down and sit for a moment, letting the weight of the day sink in.
-The kitchen feels warmer now. The small meal earlier seems like a distant comfort—but it helped.\n\nYou made it through the day. It isn’t grand, but it’s progress. Tomorrow, you can do it again.\n\n(Steady Recovery Ending)"
+The kitchen feels warmer now. The small meal earlier seems like a distant comfort—but it helped.\n\nYou made it through the day. It isn’t grand, but it’s progress. Tomorrow, you can do it again."
         android:textColor="@color/white"
         android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
@@ -59,7 +63,16 @@ The kitchen feels warmer now. The small meal earlier seems like a distant comfor
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
 
-
+    <Button
+        android:id="@+id/btnLeaveTell"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:text="Go Back to Title Page"
+        android:textSize="12sp"
+        android:onClick="title31"/>
 
     <View
         android:layout_width="match_parent"

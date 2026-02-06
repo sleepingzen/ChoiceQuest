@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_2_1_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_1_1">
 
     <View
         android:layout_width="match_parent"
@@ -38,7 +40,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_2_1_1"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
@@ -61,7 +64,7 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:onClick="page2_2_1_1_1_1"/>
+        android:onClick="page2_2_1_1_1"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
@@ -72,7 +75,7 @@ The shopkeeper gives you a nod. No words—just acknowledgement that someone got
         android:fontFamily="@font/quest_font"
         android:text="Decide to explore the market a little more while you’re here."
         android:textSize="12sp"
-        android:onClick="page2_2_1_1_1_2"/>
+        android:onClick="page2_2_1_1_2"/>
 
     <View
         android:layout_width="match_parent"

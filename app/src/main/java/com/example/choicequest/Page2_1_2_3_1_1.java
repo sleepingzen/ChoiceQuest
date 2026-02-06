@@ -70,7 +70,7 @@ public class Page2_1_2_3_1_1 extends AppCompatActivity {
         Toast.makeText(this, "The Watcher Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title(View view){
+    public void title18(View view){
         Intent i = new Intent(Page2_1_2_3_1_1.this, MainActivity.class);
         startActivity(i);
         finish();

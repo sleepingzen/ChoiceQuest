@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_2_1_2_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_1_2_1">
 
     <View
         android:layout_width="match_parent"
@@ -38,19 +40,32 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_2_1_2_1"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You linger near the fountain, watching water ripple in the sunlight. Children chase each other, laughing.\n\nIt’s all ordinary, but the simplicity feels grounding.\n\nEventually, your stomach reminds you why you came. You gather what you need and prepare to leave.
-The world keeps moving, but for now, you feel a little steadier, a little more in control.\n\n(Mindful Pause Ending)"
+The world keeps moving, but for now, you feel a little steadier, a little more in control."
         android:textColor="@color/white"
         android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
+    <Button
+        android:id="@+id/btnLeaveTell"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:text="Go Back to Title Page"
+        android:textSize="12sp"
+        android:onClick="title29"/>
 
     <View
         android:layout_width="match_parent"

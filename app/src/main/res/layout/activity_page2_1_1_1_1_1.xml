@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:text="You pull and tug the fishing rod, whatever has caught on feels heavy enough that you start to sweat.\n\nRalph helps you pull it out of the water, and surprisingly, it is a chest filled with treasure!\n\nRalph jumps happily, almost turning the boat over, hugging you in the midst of it, and shouts “We’re rich!”"
         android:textColor="#FFFFFF"
         android:textSize="23sp" />

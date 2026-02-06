@@ -70,7 +70,7 @@ public class Page2_2_3_1_3 extends AppCompatActivity {
         Toast.makeText(this, "Overextended 5 More Minutes Ending: Detachment", Toast.LENGTH_LONG).show();
     }
 
-    public void title12(View view){
+    public void title27(View view){
         Intent i = new Intent(Page2_2_3_1_3.this, MainActivity.class);
         startActivity(i);
         finish();

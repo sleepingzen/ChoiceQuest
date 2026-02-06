@@ -70,7 +70,7 @@ public class Page2_2_1_1_1 extends AppCompatActivity {
         Toast.makeText(this, "Mindful Pause Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title18(View view){
+    public void title31(View view){
         Intent i = new Intent(Page2_2_1_1_1.this, MainActivity.class);
         startActivity(i);
         finish();

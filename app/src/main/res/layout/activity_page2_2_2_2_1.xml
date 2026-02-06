@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_2_2_2_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_2_2_1">
 
     <View
         android:layout_width="match_parent"
@@ -38,12 +40,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_2_2_2_1"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
-        android:text="You travel town to town. You never stay—but you’re never alone.\n\nYou play for many different towns, spreading joy one performance at a time.\n\n(Wandering Song Ending)"
+        android:text="You travel town to town. You never stay—but you’re never alone.\n\nYou play for many different towns, spreading joy one performance at a time."
         android:textColor="@color/white"
         android:textSize="23sp" />
 
@@ -51,6 +54,17 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
+    <Button
+        android:id="@+id/btnLeaveTell"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:text="Go Back to Title Page"
+        android:textSize="12sp"
+        android:onClick="title21"/>
 
     <View
         android:layout_width="match_parent"

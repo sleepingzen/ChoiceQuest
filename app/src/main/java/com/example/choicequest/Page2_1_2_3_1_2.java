@@ -70,7 +70,7 @@ public class Page2_1_2_3_1_2 extends AppCompatActivity {
         Toast.makeText(this, "Extinguished Light Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title(View view){
+    public void title13(View view){
         Intent i = new Intent(Page2_1_2_3_1_2.this, MainActivity.class);
         startActivity(i);
         finish();

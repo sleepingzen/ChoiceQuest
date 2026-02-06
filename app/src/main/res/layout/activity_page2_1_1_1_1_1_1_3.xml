@@ -46,7 +46,7 @@
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:background="#80000000"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:textSize="20sp"
         android:text="The two of you part ways, remaining as friends. You head back to town, rushing into the town’s pub. As you enter, you shout, “Drinks are on me! Drink to your heart’s content everyone!” The people in the pub shout and chant your name.\n\nA few days pass, and you wake up, your head  throbbing as the pub’s owner shouts at you, saying you have no more money to buy more.\n\nYou head home, thinking back on your decisions, contemplating if that was the right way to spend what you luckily got by chance."/>
 

@@ -48,7 +48,7 @@
         android:textColor="#FFFFFF"
         android:background="#80000000"
         android:padding="16dp"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:textSize="23sp"
         android:text="Rumors spread.\n\nPeople talk.\n\nSomeone knows.\n\nOne night, your door knocks."/>
 

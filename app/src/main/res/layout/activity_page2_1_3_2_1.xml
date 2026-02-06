@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_1_3_2_1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_1_3_2_1">
 
     <View
         android:layout_width="match_parent"
@@ -43,11 +45,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_1_3_2_1"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="You work until exhaustion. By reinforcing houses with the townspeople, you helped avoid a disaster.\n\nYou are remembered not for wealth, but for being there when it mattered.\n\n(Community Pillar Ending)"
+        android:text="You work until exhaustion. By reinforcing houses with the townspeople, you helped avoid a disaster.\n\nYou are remembered not for wealth, but for being there when it mattered."
         android:textColor="@color/white"
         android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
@@ -64,7 +67,7 @@
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
         android:text="Go Back to Title Page"
-        android:onClick="" />
+        android:onClick="title15" />
 
     <View
         android:layout_width="match_parent"

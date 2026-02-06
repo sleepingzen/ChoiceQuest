@@ -36,7 +36,7 @@
         android:gravity="center"
         android:background="#80000000"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelspace"
+        android:fontFamily="@font/pixelgame_font"
         android:textSize="25sp"
         android:text="You and Ralph get back to town and sell the treasure.\n\nWithout knowing what to do with the treasure you sold, Ralph suggests that the two of you become merchants and join forces to monopolize the market."/>
 

@@ -36,7 +36,7 @@ public class Page2_2_2_3_2 extends AppCompatActivity {
             return insets;
         });
 
-        myTextView = findViewById(R.id.tv_page2_2_2_2_3_2);
+        myTextView = findViewById(R.id.tv_page2_2_2_3_2);
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
@@ -70,7 +70,7 @@ public class Page2_2_2_3_2 extends AppCompatActivity {
         Toast.makeText(this, "Prideful Collapse Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title(View view){
+    public void title24(View view){
         Intent i = new Intent(Page2_2_2_3_2.this, MainActivity.class);
         startActivity(i);
         finish();

@@ -1,5 +1,6 @@
 package com.example.choicequest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -64,5 +65,11 @@ public class Page2_1_1_1_1_1_2_2 extends AppCompatActivity {
                 }
             }
         }, delay);
+    }
+
+    public void title17(View view){
+        Intent i = new Intent(Page2_1_1_1_1_1_2_2.this, MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }

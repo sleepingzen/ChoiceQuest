@@ -69,7 +69,7 @@ public class Page2_1_1_1_1_2 extends AppCompatActivity {
         Toast.makeText(this, "Tough Luck! Ending", Toast.LENGTH_LONG).show();
 
     }
-    public void title1(View view) {
+    public void title32(View view) {
         Intent i = new Intent(Page2_1_1_1_1_2.this,MainActivity.class);
         startActivity(i);
         finish();

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page2_2_1_1_2"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_1_1_2">
 
     <View
         android:layout_width="match_parent"
@@ -43,13 +45,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pixelspace"
+        android:id="@+id/tv_page2_2_1_1_2"
+        android:fontFamily="@font/pixelgame_font"
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
         android:text="You wander past stalls, letting your eyes linger on things you can’t afford.
 A street performer catches your attention, juggling knives with precision.\n\nYou watch for a while, feeling a strange lightness in your chest, a reminder that life is still moving around you.
-Eventually, the bags you carry remind you of reality.\n\nYou make your purchases and head home, mind buzzing with small, unspoken joy.\n\nIt isn’t much, but it’s enough to make you feel alive again for a moment.\n\n(Fleeting Distraction Ending)"
+Eventually, the bags you carry remind you of reality.\n\nYou make your purchases and head home, mind buzzing with small, unspoken joy.\n\nIt isn’t much, but it’s enough to make you feel alive again for a moment."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
@@ -57,6 +60,17 @@ Eventually, the bags you carry remind you of reality.\n\nYou make your purchases
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
+    <Button
+        android:id="@+id/btnLeaveTell"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:text="Go Back to Title Page"
+        android:textSize="12sp"
+        android:onClick="title28"/>
 
     <View
         android:layout_width="match_parent"

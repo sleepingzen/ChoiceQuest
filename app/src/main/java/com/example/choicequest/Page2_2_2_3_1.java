@@ -70,7 +70,7 @@ public class Page2_2_2_3_1 extends AppCompatActivity {
         Toast.makeText(this, "Second Chance Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title(View view){
+    public void title23(View view){
         Intent i = new Intent(Page2_2_2_3_1.this, MainActivity.class);
         startActivity(i);
         finish();

@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/page1"
     android:background="@drawable/papertexture_"
     android:backgroundTint="#f8e7c2"
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page1">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.01"/>
+        android:layout_weight="0.1"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,43 +26,52 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0"/>
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:id="@+id/tv_page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:justificationMode="inter_word"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/pixelspace"
+        android:textColor="@color/white"
+        android:fontFamily="@font/pixelgame_font"
+        android:gravity="center"
+        android:padding="16dp"
         android:background="#80000000"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
         android:textSize="20sp"
+        android:layout_marginBottom="16dp"
         android:text="You are woken up by the sunlight blasting at your face through the window.
         \n\nYour face feels hot, and you turn over on your bed to avoid the sunlight."/>
 
-    <Button
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/quest_font"
-        android:gravity="center"
-        android:padding="16dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"/>
+
+    <Button
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:textSize="12sp"
         android:text="Wake up and make breakfast."
         android:onClick="page2_1"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/quest_font"
-        android:gravity="center"
-        android:padding="16dp"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:textSize="12sp"
         android:text="5 more minutes."
         android:onClick="page2_2"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

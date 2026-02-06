@@ -70,7 +70,7 @@ public class Page2_1_3_1_2 extends AppCompatActivity {
         Toast.makeText(this, "Regretful Scars Ending", Toast.LENGTH_LONG).show();
     }
 
-    public void title13(View view){
+    public void title30(View view){
         Intent i = new Intent(Page2_1_3_1_2.this, MainActivity.class);
         startActivity(i);
         finish();

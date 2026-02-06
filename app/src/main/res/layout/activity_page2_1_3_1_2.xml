@@ -10,7 +10,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_1_3_1_2">
 
     <View
         android:layout_width="match_parent"
@@ -41,6 +42,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_page2_1_3_1_2"
         android:layout_marginBottom="16dp"
         android:background="#80000000"
         android:fontFamily="@font/pixelgame_font"
@@ -58,7 +60,7 @@
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
         android:text="Go Back to Title Page"
-        android:onClick="title13" />
+        android:onClick="title30" />
 
     <View
         android:layout_width="match_parent"
