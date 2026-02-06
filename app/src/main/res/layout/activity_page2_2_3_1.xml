@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_page2_2_3_2"
+    android:id="@+id/activity_page2_2_3_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/papertexture_"
@@ -10,7 +10,8 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".Page2_2_3_1">
 
     <View
         android:layout_width="match_parent"
@@ -53,7 +54,6 @@
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
     <Button
-        android:id="@+id/btnStayHelp"
         android:layout_width="410dp"
         android:layout_height="45dp"
         android:text="Try to move, even just a finger."
@@ -61,10 +61,19 @@
         android:fontFamily="@font/quest_font"
         android:textSize="12sp"
         android:layout_marginBottom="16dp"
-        android:onClick="page2_2_3_2_2"/>
+        android:onClick="page2_2_3_1_1"/>
 
     <Button
-        android:id="@+id/btnLeaveTell"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:text="Lie back down."
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/quest_font"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:onClick="page2_2_3_1_1"/>
+
+    <Button
         android:layout_width="410dp"
         android:layout_height="45dp"
         android:layout_marginBottom="16dp"
@@ -72,7 +81,7 @@
         android:fontFamily="@font/quest_font"
         android:text="Let the feeling carry you away."
         android:textSize="12sp"
-        android:onClick="page2_2_3_2_3"//>
+        android:onClick="page2_2_3_1_3"/>
 
     <View
         android:layout_width="match_parent"
