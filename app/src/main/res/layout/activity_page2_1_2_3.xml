@@ -21,8 +21,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
-        android:layout_height="250dp"
-        android:src="@drawable/page_2_1_2_3" />
+        android:layout_height="250dp" />
 
     <View
         android:layout_width="match_parent"
