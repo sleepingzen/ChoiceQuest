@@ -78,7 +78,8 @@ You move slowly, but you move.)"
         android:background="@android:color/transparent"
         android:fontFamily="@font/quest_font"
         android:text="Stay inside and wait it out."
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:onClick="page2_2_1_2"/>
 
     <View
         android:layout_width="match_parent"
