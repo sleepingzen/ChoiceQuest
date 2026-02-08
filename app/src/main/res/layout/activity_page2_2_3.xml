@@ -25,9 +25,18 @@
         android:src="@drawable/page2_2_3"/>
 
     <View
+        android:id="@+id/dimOverlay"
+        android:layout_width="410dp"
+        android:layout_height="1300dp"
+        android:background="#000000"
+        android:alpha="0"
+        android:visibility="gone"/>
+
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.1" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="37dp"
@@ -50,10 +59,12 @@
         android:textColor="@color/white"
         android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
     <Button
         android:layout_width="410dp"
         android:layout_height="45dp"

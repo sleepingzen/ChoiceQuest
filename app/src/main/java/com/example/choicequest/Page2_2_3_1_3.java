@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import android.media.MediaPlayer;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -68,6 +70,10 @@ public class Page2_2_3_1_3 extends AppCompatActivity {
         }, delay);
 
         Toast.makeText(this, "Overextended 5 More Minutes Ending: Detachment", Toast.LENGTH_LONG).show();
+
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.notif);
+        mp.start();
+        mp.setOnCompletionListener(MediaPlayer::release);
     }
 
     public void title27(View view){

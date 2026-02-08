@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -81,8 +84,24 @@ public class Page2_2 extends AppCompatActivity {
     }
 
     public void page2_2_3(View view){
-        Intent i = new Intent(Page2_2.this, Page2_2_3.class);
-        startActivity(i);
-        finish();
+        View dimOverlay = findViewById(R.id.dimOverlay);
+        dimOverlay.setVisibility(View.VISIBLE);
+
+        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(dimOverlay, "alpha", 0f, 1f);
+        fadeIn.setDuration(3000);
+
+        fadeIn.addListener(new Animator.AnimatorListener() {
+            public void onAnimationEnd(Animator animation) {
+                dimOverlay.setVisibility(View.GONE);
+                Intent i = new Intent(Page2_2.this, Page2_2_3.class);
+                startActivity(i);
+                finish();
+            }
+            public void onAnimationStart(Animator animation) {}
+            public void onAnimationCancel(Animator animation) {}
+            public void onAnimationRepeat(Animator animation) {}
+        });
+
+        fadeIn.start();
     }
 }
