@@ -19,6 +19,7 @@ public class Page2_2_3_1_3 extends AppCompatActivity {
 
     private TextView myTextView;
     private String fullText;
+    private MediaPlayer mediaPlayer;
 
     private int index = 0;
     private long delay = 40;
@@ -71,14 +72,22 @@ public class Page2_2_3_1_3 extends AppCompatActivity {
 
         Toast.makeText(this, "Overextended 5 More Minutes Ending: Detachment", Toast.LENGTH_LONG).show();
 
-        MediaPlayer mp = MediaPlayer.create(this, R.raw.notif);
-        mp.start();
-        mp.setOnCompletionListener(MediaPlayer::release);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer.start();
     }
 
     public void title27(View view){
         Intent i = new Intent(Page2_2_3_1_3.this, MainActivity.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 }

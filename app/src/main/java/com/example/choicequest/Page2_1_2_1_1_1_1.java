@@ -1,6 +1,7 @@
 package com.example.choicequest;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -17,6 +18,7 @@ public class Page2_1_2_1_1_1_1 extends AppCompatActivity {
 
     private TextView myTextView;
     private String fullText;
+    private MediaPlayer mediaPlayer;
 
     private int index = 0;
     private long delay = 40;
@@ -68,11 +70,23 @@ public class Page2_1_2_1_1_1_1 extends AppCompatActivity {
         }, delay);
 
         Toast.makeText(this, "(Trusted Courier Ending)", Toast.LENGTH_LONG).show();
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer.start();
     }
 
     public void title7(View view){
         Intent i = new Intent(Page2_1_2_1_1_1_1.this, MainActivity.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 }

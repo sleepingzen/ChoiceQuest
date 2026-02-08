@@ -18,11 +18,41 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <ImageView
-        android:id="@+id/imageView"
+    <FrameLayout
         android:layout_width="412dp"
-        android:layout_height="250dp"
-        android:src="@drawable/page2_1_3_2"/>
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/page2_1_3_2"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/thunderGif0"
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="210dp"
+            android:src="@drawable/thunder_vfx0" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/thunderGif1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/thunder_vfx0" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/thunderGif2"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-0dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/thunder_vfx0"/>
+
+    </FrameLayout>
 
     <View
         android:layout_width="match_parent"
@@ -55,10 +85,12 @@
         android:textColor="@color/white"
         android:textSize="23sp"
         android:layout_marginBottom="16dp"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="0.5"/>
+
     <Button
         android:id="@+id/btnStayHelp"
         android:layout_width="410dp"

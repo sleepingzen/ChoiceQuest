@@ -3,6 +3,7 @@ package com.example.choicequest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,10 +14,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
+
 public class Page2_1_3_2 extends AppCompatActivity {
 
     private TextView myTextView;
     private String fullText;
+    private GifImageView thunderGif1, thunderGif2, thunderGif3;
 
     private int index = 0;
     private long delay = 40;
@@ -50,6 +55,18 @@ public class Page2_1_3_2 extends AppCompatActivity {
                 myTextView.setText(fullText);
             }
         });
+
+        thunderGif1 = findViewById(R.id.thunderGif0);
+        thunderGif2 = findViewById(R.id.thunderGif1);
+        thunderGif3 = findViewById(R.id.thunderGif2);
+
+        thunderGif1.setAlpha(0f);
+        thunderGif2.setAlpha(0f);
+        thunderGif3.setAlpha(0f);
+
+        startFlickeringThunder(thunderGif1, 1000);
+        startFlickeringThunder(thunderGif2, 4000);
+        startFlickeringThunder(thunderGif3, 8000);
     }
 
     private void typeText() {
@@ -66,6 +83,38 @@ public class Page2_1_3_2 extends AppCompatActivity {
                 }
             }
         }, delay);
+    }
+
+    private void startFlickeringThunder(GifImageView gifView, long initialDelay) {
+        Handler handler = new Handler(Looper.getMainLooper());
+
+        Runnable flickerRunnable = new Runnable() {
+            @Override
+            public void run() {
+                GifDrawable drawable = (GifDrawable) gifView.getDrawable();
+                drawable.reset();
+                drawable.start();
+
+                gifView.animate()
+                        .alpha(1f)
+                        .setDuration(200)
+                        .withEndAction(() -> {
+                            handler.postDelayed(() -> {
+                                gifView.animate()
+                                        .alpha(0f)
+                                        .setDuration(300)
+                                        .withEndAction(() -> {
+                                            drawable.stop();
+                                            handler.postDelayed(this, 3000);
+                                        })
+                                        .start();
+                            }, 800);
+                        })
+                        .start();
+            }
+        };
+
+        handler.postDelayed(flickerRunnable, initialDelay);
     }
 
     public void page2_1_3_2_1(View view){
