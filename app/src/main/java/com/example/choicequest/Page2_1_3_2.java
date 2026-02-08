@@ -1,6 +1,7 @@
 package com.example.choicequest;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -22,6 +23,7 @@ public class Page2_1_3_2 extends AppCompatActivity {
     private TextView myTextView;
     private String fullText;
     private GifImageView thunderGif1, thunderGif2, thunderGif3;
+    private MediaPlayer thunderSound;
 
     private int index = 0;
     private long delay = 40;
@@ -67,6 +69,10 @@ public class Page2_1_3_2 extends AppCompatActivity {
         startFlickeringThunder(thunderGif1, 1000);
         startFlickeringThunder(thunderGif2, 4000);
         startFlickeringThunder(thunderGif3, 8000);
+
+        // Play thunder sound once
+        thunderSound = MediaPlayer.create(this, R.raw.rainthunder_sfx);
+        thunderSound.start();
     }
 
     private void typeText() {
@@ -127,5 +133,14 @@ public class Page2_1_3_2 extends AppCompatActivity {
         Intent i = new Intent(Page2_1_3_2.this, Page2_1_3_2_2.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (thunderSound != null) {
+            thunderSound.release();
+            thunderSound = null;
+        }
     }
 }

@@ -5,6 +5,8 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +21,7 @@ public class Page2_1_3_2_1 extends AppCompatActivity {
     private TextView myTextView;
     private String fullText;
     private MediaPlayer mediaPlayer;
+    private MediaPlayer hammerSound;
 
     private int index = 0;
     private long delay = 40;
@@ -43,6 +46,8 @@ public class Page2_1_3_2_1 extends AppCompatActivity {
         fullText = myTextView.getText().toString();
         myTextView.setText("");
 
+        startHammeringEffect(root);
+
         typeText();
 
         root.setOnClickListener(v -> {
@@ -52,6 +57,21 @@ public class Page2_1_3_2_1 extends AppCompatActivity {
                 myTextView.setText(fullText);
             }
         });
+    }
+
+    private void startHammeringEffect(View root) {
+        hammerSound = MediaPlayer.create(this, R.raw.hammer);
+        hammerSound.setLooping(true);
+        hammerSound.start();
+
+        Animation pound = AnimationUtils.loadAnimation(this, R.anim.pound);
+        root.startAnimation(pound);
+
+        h.postDelayed(() -> {
+            if (hammerSound != null && hammerSound.isPlaying()) {
+                hammerSound.stop();
+            }
+        }, 5000);
     }
 
     private void typeText() {
@@ -87,6 +107,10 @@ public class Page2_1_3_2_1 extends AppCompatActivity {
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
+        }
+        if (hammerSound != null) {
+            hammerSound.release();
+            hammerSound = null;
         }
     }
 }

@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -39,6 +41,9 @@ public class Page2_1_1_1_1_1 extends AppCompatActivity {
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
+
+        Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
+        root.startAnimation(shake);
 
         typeText();
 
