@@ -18,7 +18,7 @@ import androidx.core.view.WindowInsetsCompat;
 import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
-public class Page2_1_3_2 extends AppCompatActivity {
+public class Page2_1_3_2 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;

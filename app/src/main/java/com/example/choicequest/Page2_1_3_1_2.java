@@ -14,11 +14,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Page2_1_3_1_2 extends AppCompatActivity {
+public class Page2_1_3_1_2 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;
     private MediaPlayer mediaPlayer;
+    private MediaPlayer angryMeowSound;
 
     private int index = 0;
     private long delay = 40;
@@ -42,6 +43,9 @@ public class Page2_1_3_1_2 extends AppCompatActivity {
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
+
+        angryMeowSound = MediaPlayer.create(this, R.raw.angrymeow);
+        angryMeowSound.start();
 
         typeText();
 
@@ -87,6 +91,10 @@ public class Page2_1_3_1_2 extends AppCompatActivity {
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
+        }
+        if (angryMeowSound != null) {
+            angryMeowSound.release();
+            angryMeowSound = null;
         }
     }
 }

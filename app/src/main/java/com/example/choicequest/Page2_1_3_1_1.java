@@ -14,11 +14,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Page2_1_3_1_1 extends AppCompatActivity {
+public class Page2_1_3_1_1 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;
     private MediaPlayer mediaPlayer;
+    private MediaPlayer nomSound;
 
     private int index = 0;
     private long delay = 40;
@@ -42,6 +43,9 @@ public class Page2_1_3_1_1 extends AppCompatActivity {
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
+
+        nomSound = MediaPlayer.create(this, R.raw.nom);
+        nomSound.start();
 
         typeText();
 
@@ -87,6 +91,10 @@ public class Page2_1_3_1_1 extends AppCompatActivity {
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
+        }
+        if (nomSound != null) {
+            nomSound.release();
+            nomSound = null;
         }
     }
 }

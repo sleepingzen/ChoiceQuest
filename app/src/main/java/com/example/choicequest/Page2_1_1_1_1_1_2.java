@@ -1,6 +1,7 @@
 package com.example.choicequest;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -12,10 +13,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Page2_1_1_1_1_1_2 extends AppCompatActivity {
+public class Page2_1_1_1_1_1_2 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;
+    private MediaPlayer susSound;
 
     private int index = 0;
     private long delay = 40;
@@ -39,6 +41,9 @@ public class Page2_1_1_1_1_1_2 extends AppCompatActivity {
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
+
+        susSound = MediaPlayer.create(this, R.raw.sus);
+        susSound.start();
 
         typeText();
 
@@ -77,5 +82,14 @@ public class Page2_1_1_1_1_1_2 extends AppCompatActivity {
         Intent i = new Intent(Page2_1_1_1_1_1_2.this, Page2_1_1_1_1_1_2_2.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (susSound != null) {
+            susSound.release();
+            susSound = null;
+        }
     }
 }
