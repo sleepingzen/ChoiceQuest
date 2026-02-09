@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Page2_1_2 extends AppCompatActivity {
+public class Page2_1_2 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;

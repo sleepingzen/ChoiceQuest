@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
-        android:duration="100"
-        android:fromXDelta="-5%"
-        android:repeatCount="10"
-        android:repeatMode="reverse"
-        android:toXDelta="5%" />
+        android:duration="120"
+        android:fromYDelta="0%"
+        android:toYDelta="-5%"
+        android:repeatCount="15"
+        android:repeatMode="reverse" />
     <translate
-        android:duration="100"
-        android:fromYDelta="-2%"
-        android:repeatCount="10"
-        android:repeatMode="reverse"
-        android:toYDelta="2%" />
-    <translate
-        android:duration="100"
-        android:fromXDelta="-2%"
-        android:repeatCount="10"
-        android:repeatMode="reverse"
-        android:toYDelta="2%" />
+        android:duration="120"
+        android:fromXDelta="-3%"
+        android:toXDelta="3%"
+        android:repeatCount="15"
+        android:repeatMode="reverse" />
+    <rotate
+        android:duration="120"
+        android:fromDegrees="-2"
+        android:toDegrees="2"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="15"
+        android:repeatMode="reverse" />
 </set>

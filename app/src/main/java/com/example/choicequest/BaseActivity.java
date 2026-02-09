@@ -18,8 +18,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        android.util.Log.d("MUSIC_TEST", "BaseActivity onCreate called");
-
         if (bgMusic == null) {
             playTrack(currentTrackIndex);
         }

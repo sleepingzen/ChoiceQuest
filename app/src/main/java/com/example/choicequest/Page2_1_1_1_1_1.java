@@ -1,6 +1,7 @@
 package com.example.choicequest;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -14,10 +15,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Page2_1_1_1_1_1 extends AppCompatActivity {
+public class Page2_1_1_1_1_1 extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;
+    private MediaPlayer reelingSound;
 
     private int index = 0;
     private long delay = 40;
@@ -42,8 +44,12 @@ public class Page2_1_1_1_1_1 extends AppCompatActivity {
         fullText = myTextView.getText().toString();
         myTextView.setText("");
 
+        // Play reeling sound and shake together
         Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
         root.startAnimation(shake);
+
+        reelingSound = MediaPlayer.create(this, R.raw.reeling);
+        reelingSound.start();
 
         typeText();
 
@@ -82,5 +88,14 @@ public class Page2_1_1_1_1_1 extends AppCompatActivity {
         Intent i = new Intent(Page2_1_1_1_1_1.this, Page2_1_1_1_1_1_2.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (reelingSound != null) {
+            reelingSound.release();
+            reelingSound = null;
+        }
     }
 }

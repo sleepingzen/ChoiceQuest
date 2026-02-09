@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class StoryBackground extends AppCompatActivity {
+public class StoryBackground extends BaseActivity {
 
     private TextView myTextView;
     private String fullText;
