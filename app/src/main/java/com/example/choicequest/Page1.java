@@ -6,8 +6,10 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
+
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -28,8 +30,10 @@ public class Page1 extends BaseActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page1);
+
         View root = findViewById(R.id.page1);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.page1), (v, insets) -> {
+
+        ViewCompat.setOnApplyWindowInsetsListener(root, (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -66,13 +70,34 @@ public class Page1 extends BaseActivity {
             }
         }, delay);
     }
+
     public void page2_1(View view) {
         Intent i = new Intent(Page1.this, Page2_1.class);
         startActivity(i);
+        finish();
     }
 
     public void page2_2(View view) {
-        Intent i = new Intent(Page1.this, Page2_2.class);
-        startActivity(i);
+        View dimOverlay = findViewById(R.id.dimOverlay);
+        dimOverlay.setVisibility(View.VISIBLE);
+
+        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(dimOverlay, "alpha", 0f, 1f);
+        fadeIn.setDuration(3000);
+
+        fadeIn.addListener(new Animator.AnimatorListener() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                dimOverlay.setVisibility(View.GONE);
+                Intent i = new Intent(Page1.this, Page2_2.class);
+                startActivity(i);
+                finish();
+            }
+
+            @Override public void onAnimationStart(Animator animation) {}
+            @Override public void onAnimationCancel(Animator animation) {}
+            @Override public void onAnimationRepeat(Animator animation) {}
+        });
+
+        fadeIn.start();
     }
 }
