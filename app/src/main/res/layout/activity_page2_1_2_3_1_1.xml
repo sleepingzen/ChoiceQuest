@@ -55,9 +55,7 @@
 
 The old keeper gives you a tap on the shoulder. You felt as though a big responsibility was passed onto you.
 
-You disappear from town records, but sailors are always guided safely home.\n\n
-(The Watcher Ending)
-"
+You disappear from town records, but sailors are always guided safely home."
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>

@@ -52,7 +52,7 @@
         android:padding="16dp"
         android:background="@android:color/transparent"
         android:layout_marginTop="140dp"
-    android:text="Press Anywhere to Continue"
+    android:text="Press to Continue"
     android:onClick="page1"/>
 
     <View

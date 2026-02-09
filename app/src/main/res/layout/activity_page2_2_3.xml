@@ -54,8 +54,9 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#80000000"
-        android:text="Your thoughts drift, but something small pulls at you—
- not pain, not fear, just a quiet awareness that time is still moving.\n\nYour body feels distant, like it belongs to someone else.\n\nBreathing happens on its own. The room feels too quiet.\n\nYou wonder—briefly—if getting up would change anything at all."
+        android:text="You sleep some more, ignoring your hunger as it grows.
+\n\nYou feel weakened.
+\n\nYou wake up to the sharp pain in your stomach, which makes your body curl up like a millipede."
         android:textColor="@color/white"
         android:textSize="19sp"
         android:layout_marginBottom="16dp"/>
