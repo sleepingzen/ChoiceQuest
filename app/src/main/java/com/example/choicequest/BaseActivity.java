@@ -1,5 +1,6 @@
 package com.example.choicequest;
 
+import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,32 +9,44 @@ public class BaseActivity extends AppCompatActivity {
 
     private static MediaPlayer bgMusic;
     private static int[] playlist = {
-            R.raw.atebit_sound,
-            R.raw.atebit_sound1,
-            R.raw.atebit_soound2
+            R.raw.ambient
     };
     private static int currentTrackIndex = 0;
+    private static boolean isInitialized = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (bgMusic == null) {
-            playTrack(currentTrackIndex);
+        if (!isInitialized) {
+            initializeMusic();
+            isInitialized = true;
         }
     }
 
-    private void playTrack(int index) {
+    private void initializeMusic() {
+        bgMusic = MediaPlayer.create(getApplicationContext(), playlist[currentTrackIndex]);
+        bgMusic.setVolume(0.3f, 0.3f);
+
+        bgMusic.setOnCompletionListener(mp -> {
+            currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+            playNextTrack();
+        });
+
+        bgMusic.start();
+    }
+
+    private void playNextTrack() {
         if (bgMusic != null) {
             bgMusic.release();
         }
 
-        bgMusic = MediaPlayer.create(this, playlist[index]);
+        bgMusic = MediaPlayer.create(getApplicationContext(), playlist[currentTrackIndex]);
         bgMusic.setVolume(0.5f, 0.5f);
 
         bgMusic.setOnCompletionListener(mp -> {
             currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
-            playTrack(currentTrackIndex);
+            playNextTrack();
         });
 
         bgMusic.start();
@@ -58,9 +71,5 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (isFinishing() && bgMusic != null) {
-            bgMusic.release();
-            bgMusic = null;
-        }
     }
 }

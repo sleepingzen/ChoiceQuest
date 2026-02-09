@@ -71,7 +71,7 @@ public class Page2_1_2_1_1_1_1 extends BaseActivity {
 
         Toast.makeText(this, "(Trusted Courier Ending)", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

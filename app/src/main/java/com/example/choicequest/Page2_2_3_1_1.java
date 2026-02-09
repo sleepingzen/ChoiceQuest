@@ -71,7 +71,7 @@ public class Page2_2_3_1_1 extends BaseActivity {
 
         Toast.makeText(this, "Overextended 5 More Minutes Ending: Regrets", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

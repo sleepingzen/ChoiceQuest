@@ -91,7 +91,7 @@ public class Page2_1_3_2_1 extends BaseActivity {
 
         Toast.makeText(this, "Community Pillar Ending", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

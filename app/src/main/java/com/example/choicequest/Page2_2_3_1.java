@@ -1,9 +1,11 @@
 package com.example.choicequest;
 
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -40,6 +42,9 @@ public class Page2_2_3_1 extends BaseActivity {
         fullText = myTextView.getText().toString();
         myTextView.setText("");
 
+        View vignette = findViewById(R.id.vignetteOverlay);
+        startCorruptionEffect(vignette);
+
         typeText();
 
         root.setOnClickListener(v -> {
@@ -49,6 +54,20 @@ public class Page2_2_3_1 extends BaseActivity {
                 myTextView.setText(fullText);
             }
         });
+    }
+
+    private void startCorruptionEffect(View vignette) {
+        ObjectAnimator heartbeat = ObjectAnimator.ofFloat(vignette, "alpha",
+                0.3f,
+                0.7f,
+                0.5f,
+                0.9f,
+                0.3f
+        );
+        heartbeat.setDuration(2500);
+        heartbeat.setRepeatCount(ObjectAnimator.INFINITE);
+        heartbeat.setInterpolator(new AccelerateDecelerateInterpolator());
+        heartbeat.start();
     }
 
     private void typeText() {

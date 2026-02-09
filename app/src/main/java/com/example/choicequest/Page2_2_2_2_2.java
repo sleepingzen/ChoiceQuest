@@ -71,7 +71,7 @@ public class Page2_2_2_2_2 extends BaseActivity {
 
         Toast.makeText(this, "Endless Loop Ending", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

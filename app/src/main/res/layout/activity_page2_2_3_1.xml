@@ -1,93 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/page2_2_3_1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/papertexture_"
-    android:backgroundTint="#f8e7c2"
-    android:backgroundTintMode="multiply"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".Page2_2_3_1">
+    android:layout_height="match_parent">
 
-    <View
+    <LinearLayout
+        android:id="@+id/page2_2_3_1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="412dp"
-        android:layout_height="250dp"
-        android:src="@drawable/page2_2_3_1"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.1" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/papertexture_"
+        android:backgroundTint="#f8e7c2"
+        android:backgroundTintMode="multiply"
         android:gravity="center"
-        android:fontFamily="@font/pixelspace"
-        android:textSize="22sp"
-        android:text="(5. More. Minutes.)"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_page2_2_3_1"
-        android:fontFamily="@font/pixelgame_font"
-        android:gravity="center"
+        android:orientation="vertical"
         android:padding="16dp"
-        android:background="#80000000"
-        android:text="Your thoughts drift, but something small pulls at you—
+        tools:context=".Page2_2_3_1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:src="@drawable/page2_2_3_1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:fontFamily="@font/pixelspace"
+            android:textSize="22sp"
+            android:text="(5. More. Minutes.)"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_page2_2_3_1"
+            android:fontFamily="@font/pixelgame_font"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#80000000"
+            android:text="Your thoughts drift, but something small pulls at you—
  not pain, not fear, just a quiet awareness that time is still moving.\n\nYour body feels distant, like it belongs to someone else.\n\nBreathing happens on its own. The room feels too quiet.\n\nYou wonder—briefly—if getting up would change anything at all."
-        android:textColor="@color/white"
-        android:textSize="19sp"
-        android:layout_marginBottom="16dp"/>
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_marginBottom="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:layout_width="410dp"
+            android:layout_height="45dp"
+            android:text="Try to move, even just a finger."
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/quest_font"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"
+            android:onClick="page2_2_3_1_1"/>
+
+        <Button
+            android:layout_width="410dp"
+            android:layout_height="45dp"
+            android:text="Lie back down."
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/quest_font"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"
+            android:onClick="page2_2_3_1_2"/>
+
+        <Button
+            android:layout_width="410dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/quest_font"
+            android:text="Let the feeling carry you away."
+            android:textSize="12sp"
+            android:onClick="page2_2_3_1_3"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
     <View
+        android:id="@+id/vignetteOverlay"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="0.5"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/vignette"
+        android:alpha="0"
+        android:clickable="false"
+        android:focusable="false" />
 
-    <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Try to move, even just a finger."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
-        android:onClick="page2_2_3_1_1"/>
-
-    <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:text="Lie back down."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
-        android:onClick="page2_2_3_1_2"/>
-
-    <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:text="Let the feeling carry you away."
-        android:textSize="12sp"
-        android:onClick="page2_2_3_1_3"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="1"/>
-
-</LinearLayout>
+</FrameLayout>

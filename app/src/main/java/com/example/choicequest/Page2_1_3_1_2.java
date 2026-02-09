@@ -75,7 +75,7 @@ public class Page2_1_3_1_2 extends BaseActivity {
 
         Toast.makeText(this, "Regretful Scars Ending", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

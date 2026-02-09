@@ -70,7 +70,7 @@ public class Page2_1_1_1_1_1_1_3 extends BaseActivity {
 
         Toast.makeText(this, "Zero Days Ending", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 

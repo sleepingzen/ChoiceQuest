@@ -19,6 +19,7 @@ public class Page2_2_2_3_1 extends BaseActivity {
     private TextView myTextView;
     private String fullText;
     private MediaPlayer mediaPlayer;
+    private MediaPlayer beepPlayer;
 
     private int index = 0;
     private long delay = 40;
@@ -42,6 +43,10 @@ public class Page2_2_2_3_1 extends BaseActivity {
 
         fullText = myTextView.getText().toString();
         myTextView.setText("");
+
+        beepPlayer = MediaPlayer.create(this, R.raw.beep);
+        beepPlayer.setLooping(true);
+        beepPlayer.start();
 
         typeText();
 
@@ -71,7 +76,7 @@ public class Page2_2_2_3_1 extends BaseActivity {
 
         Toast.makeText(this, "Second Chance Ending", Toast.LENGTH_LONG).show();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.notif);
+        mediaPlayer = MediaPlayer.create(this, R.raw.notif_1);
         mediaPlayer.start();
     }
 
@@ -87,6 +92,10 @@ public class Page2_2_2_3_1 extends BaseActivity {
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
+        }
+        if (beepPlayer != null) {
+            beepPlayer.release();
+            beepPlayer = null;
         }
     }
 }
