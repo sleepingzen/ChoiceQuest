@@ -61,21 +61,23 @@
         android:layout_weight="0.1"/>
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginBottom="16dp"
         android:text="Agree to help."
         android:onClick="page2_1_2_2_1" />
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginBottom="16dp"
         android:text="Brush them off and leave."
         android:onClick="page2_1_2_2_2" />

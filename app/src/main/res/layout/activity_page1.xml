@@ -57,22 +57,24 @@
         android:layout_weight="0.5"/>
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
+        android:backgroundTint="@color/cardview_dark_background"
         android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
         android:text="Wake up and make breakfast."
         android:onClick="page2_1"/>
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
+        android:backgroundTint="@color/cardview_dark_background"
         android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
         android:text="5 more minutes."
         android:onClick="page2_2"/>
 

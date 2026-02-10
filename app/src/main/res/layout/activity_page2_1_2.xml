@@ -58,32 +58,35 @@
         android:layout_weight="0.1"/>
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginBottom="10dp"
         android:text="Approach the hooded trader."
         android:onClick="page2_1_2_1" />
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginBottom="10dp"
         android:text="Talk to your classmate."
         android:onClick="page2_1_2_2" />
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
-        android:layout_marginBottom="16dp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginBottom="10dp"
         android:text="Read the notice board."
         android:onClick="page2_1_2_3" />
 

@@ -59,11 +59,12 @@
         android:layout_weight="0.1"/>
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textSize="10sp"
+        android:textColor="@color/white"
         android:layout_marginBottom="16dp"
         android:text="Go fishing with the fisherman."
         android:onClick="page2_1_1_1" />

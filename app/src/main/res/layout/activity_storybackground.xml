@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pixelgame_font"
+        android:background="#80000000"
         android:textColor="@color/white"
         android:justificationMode="inter_word"
         android:layout_marginTop="20dp"
@@ -50,7 +51,8 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginTop="140dp"
     android:text="Press to Continue"
     android:onClick="page1"/>

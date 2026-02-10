@@ -19,7 +19,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/page2_1_3_1"/>
 
@@ -63,21 +63,23 @@
         android:layout_weight="0.5"/>
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginBottom="16dp"
         android:text="Feed the cat."
         android:onClick="page2_1_3_1_1" />
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/quest_font"
-        android:background="@android:color/transparent"
-        android:textSize="12sp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginBottom="16dp"
         android:text="Chase the cat away."
         android:onClick="page2_1_3_1_2" />

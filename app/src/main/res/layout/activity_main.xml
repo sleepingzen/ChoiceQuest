@@ -17,17 +17,19 @@
         android:layout_height="wrap_content"
         android:text="= Choice Quest ="
         android:textSize="50sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:fontFamily="@font/pixelgame_font" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:background="@android:color/transparent"
-        android:text="- Press to Start -"
-        android:textSize="12sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:textColor="@color/white"
         android:fontFamily="@font/quest_font"
-        android:onClick="mainActivity" />
+        android:onClick="mainActivity"
+        android:text="- Press to Start -"
+        android:textSize="12sp" />
 
 </LinearLayout>

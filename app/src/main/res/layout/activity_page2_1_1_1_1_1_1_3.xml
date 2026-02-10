@@ -57,8 +57,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
-        android:text="Go Back to Title Page"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:text="Go Back to Title Page"
         android:onClick="title4" />
 
     <View

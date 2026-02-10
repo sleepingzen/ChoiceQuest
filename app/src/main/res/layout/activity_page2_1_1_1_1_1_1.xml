@@ -51,8 +51,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:textSize="12sp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Accept Ralph’s suggestion."
         android:onClick="page2_1_1_1_1_1_1_1" />
 
@@ -62,8 +63,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:textSize="12sp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Decline Ralph’s request, but become a merchant yourself."
         android:onClick="page2_1_1_1_1_1_1_2" />
 
@@ -73,8 +75,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:textSize="12sp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Decline Ralph’s request and spend all your earnings on booze and parties."
         android:onClick="page2_1_1_1_1_1_1_3" />
 </LinearLayout>

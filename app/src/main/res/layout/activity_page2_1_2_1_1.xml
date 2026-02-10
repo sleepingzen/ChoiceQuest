@@ -58,14 +58,15 @@
         android:layout_weight="0.3"/>
 
     <Button
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:fontFamily="@font/quest_font"
         android:onClick="page2_1_2_1_1_1"
-        android:text="Walk straight past the guards."
-        android:textSize="12sp" />
+        android:text="Walk straight past the guards." />
 
     <View
         android:layout_width="match_parent"

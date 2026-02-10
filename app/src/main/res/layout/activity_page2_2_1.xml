@@ -61,24 +61,24 @@ You move slowly, but you move.)"
         android:layout_weight="0.5"/>
     <Button
         android:id="@+id/btnStayHelp"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Go straight to the nearest shop."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+  android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:layout_marginBottom="16dp"
         android:onClick="page2_2_1_1"/>
 
     <Button
         android:id="@+id/btnLeaveTell"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
+  android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:text="Stay inside and wait it out."
-        android:textSize="12sp"
         android:onClick="page2_2_1_2"/>
 
     <View

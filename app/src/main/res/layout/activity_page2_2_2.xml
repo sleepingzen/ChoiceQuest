@@ -62,35 +62,35 @@
 
     <Button
         android:id="@+id/btnOption1"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Buy food."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+  android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:layout_marginBottom="16dp"
         android:onClick="page2_2_2_1"/>
 
     <Button
         android:id="@+id/btnOption2"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Stop and watch."
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
-        android:textSize="12sp"
+  android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:layout_marginBottom="16dp"
         android:onClick="page2_2_2_2"/>
 
     <Button
         android:id="@+id/btnOption3"
-        android:layout_width="410dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
+  android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:text="Let yourself fall."
-        android:textSize="12sp"
         android:onClick="page2_2_2_3"/>
 
     <View

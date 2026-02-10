@@ -20,7 +20,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/page2_1_2_2_1_1_1_2" />
 
@@ -58,14 +58,13 @@
         android:layout_weight="0.1" />
 
     <Button
-        android:layout_width="412dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/quest_font"
+        android:textSize="10sp"
+        android:backgroundTint="@color/cardview_dark_background"        android:fontFamily="@font/quest_font"
         android:onClick="title14"
-        android:text="Go Back to Title Page"
-        android:textSize="12sp" />
+        android:text="Go Back to Title Page" />
 
     <View
         android:layout_width="match_parent"

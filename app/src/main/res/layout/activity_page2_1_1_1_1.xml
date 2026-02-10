@@ -57,7 +57,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Your fishing rod shakes… Something has caught on!"
         android:onClick="page2_1_1_1_1_1"/>
 
@@ -67,7 +69,9 @@
         android:fontFamily="@font/quest_font"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Nothing happens."
         android:onClick="page2_1_1_1_1_2"/>
     <View
